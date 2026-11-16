@@ -1,0 +1,123 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog görüntü stili: üç hazır varyasyon (a, b, c) = görünüş (renk, yazı, doku, ışık, malzeme dili). ./st yeni --gorsel ile videonun gorunus.json seçeneklerine kopyalanır; Claude videoya göre inceltebilir, seçimi kullanıcı yapar. Motoru ve hareketi SEÇMEZ: her motorda uygulanır. kurallar: stilin değişmezleri; teknik.<motor>: o motorda nasıl kurulur (uc = Three.js 3B katmanı). Blender'da renk alanındaki adlı renkler malzemelere gider (kit.renk), blender alanı ışık kararlarıdır; sahne kendi nesnelerine göre ad ekleyebilir. onizleme_motoru + onizleme_sahne: yalnız katalog önizlemesinin nerede ve hangi sahneyle çizildiği (./st katalog gorsel).",
+  "ad": "arsiv-belgesel",
+  "baslik": "Arşiv / belgesel",
+  "ozet": "Sepya kâğıt, arşiv siyahı, klasik serif. Tarih, biyografi, belgesel anlatı.",
+  "uygun": [
+    "tarih",
+    "biyografi",
+    "belgesel"
+  ],
+  "kaynak": "katalog",
+  "varyasyonlar": {
+    "a": {
+      "ad": "Sepya arşiv",
+      "fikir": "Eskimiş kâğıt ve kahve mürekkep: arşiv kutusundan bir sayfa.",
+      "renk": {
+        "arka": "#EDE3CF",
+        "murekkep": "#2A2118",
+        "vurgu": "#8C2F1B",
+        "soluk": "#6F604B"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Cormorant Garamond",
+          "agirlik": 700
+        },
+        "govde": {
+          "aile": "Lora",
+          "agirlik": 500
+        },
+        "aksan": {
+          "aile": "Cormorant Garamond",
+          "agirlik": 600,
+          "italik": true
+        }
+      },
+      "doku": "eski kâğıt, leke, gren",
+      "isik": "sıcak masa ışığı, vinyet",
+      "hareket": "yavaş kaydırma, belge yakınlaşması",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "vinyet": 0.3,
+        "gren": 0.1,
+        "gren_karisim": "overlay",
+        "siyah": "#1E1813"
+      }
+    },
+    "b": {
+      "ad": "Arşiv karanlığı",
+      "fikir": "Koyu arşiv zemin ve altın yazı: müze vitrini.",
+      "renk": {
+        "arka": "#1C1814",
+        "murekkep": "#EDE3CF",
+        "vurgu": "#C9A45C",
+        "soluk": "#A2957F"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Playfair Display",
+          "agirlik": 700
+        },
+        "govde": {
+          "aile": "EB Garamond",
+          "agirlik": 500
+        },
+        "aksan": {
+          "aile": "Playfair Display",
+          "agirlik": 400,
+          "italik": true
+        }
+      },
+      "doku": "kadife karanlık, gren",
+      "isik": "spot ışık",
+      "hareket": "ağır yakınlaşma",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "vinyet": 0.3,
+        "gren": 0.1,
+        "gren_karisim": "overlay",
+        "siyah": "#1E1813",
+        "isik": 0.15,
+        "isik_esik": 0.78
+      }
+    },
+    "c": {
+      "ad": "Gri gazete",
+      "fikir": "Gri gazete kâğıdı ve kahverengi: eski gazete sütunu.",
+      "renk": {
+        "arka": "#E6E1D6",
+        "murekkep": "#1E1E1E",
+        "vurgu": "#6B4E2E",
+        "soluk": "#5E5A52"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Libre Baskerville",
+          "agirlik": 700
+        },
+        "govde": {
+          "aile": "Newsreader",
+          "agirlik": 500
+        },
+        "aksan": {
+          "aile": "Libre Baskerville",
+          "agirlik": 400,
+          "italik": true
+        }
+      },
+      "doku": "gazete kâğıdı, mürekkep taşması",
+      "isik": "düz",
+      "hareket": "sütun sütun okunur",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "vinyet": 0.18,
+        "gren": 0.08,
+        "gren_karisim": "multiply"
+      }
+    }
+  }
+}

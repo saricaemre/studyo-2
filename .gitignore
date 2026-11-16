@@ -1,0 +1,14 @@
+# gizli ayarlar ve yerel ortam
+.env
+.venv/
+node_modules/
+__pycache__/
+.DS_Store
+# filmlerin ve araçların ürettikleri (her kurulumda yerelde oluşur)
+Studyo/studio/out/
+Studyo/studio/videos/*/toplu/
+Studyo/studio/panel/isler/
+Studyo/studio/panel/onbellek/
+Studyo/studio/panel/panel.log
+Studyo/studio/kutuphane/3b/
+Studyo/araclar/ACE-Step-1.5/

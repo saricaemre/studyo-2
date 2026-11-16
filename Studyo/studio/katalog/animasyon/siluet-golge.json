@@ -1,0 +1,42 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "siluet-golge",
+  "baslik": "Silüet / gölge tiyatrosu",
+  "ozet": "Arkadan ışık, katmanlı silüetler, süpüren ışık. İnsan çizmeden duygu ve atmosfer.",
+  "uygun": [
+    "masal",
+    "dram",
+    "kamu spotu"
+  ],
+  "kaynak": "katalog",
+  "kurallar": [
+    "İnsan silüet olarak: iç ayrıntısız, profilden okunur (zanaat.md §2 yol E); yüz ifadesi gerekiyorsa bu tip değil (yol F)",
+    "Katmanlar paralaksla ayrışır",
+    "Işık tek kaynak, yavaş süpürür",
+    "Silüet kenarı keskin"
+  ],
+  "kamera": "yatay kayma, paralaks",
+  "gecis": "ışık kapanır ya da sahne sağa kayar",
+  "tempo": {
+    "olay_aralik_sn": [
+      1.5,
+      3.0
+    ]
+  },
+  "yasak": [
+    "çöp adam",
+    "silüete yüz ayrıntısı çizmek"
+  ],
+  "teknik": {
+    "remotion": "SVG silüet, katman paralaksı",
+    "hyperframes": "SVG + GSAP",
+    "blender": "arka ışıklı gerçek gölge (kit.gunes karşıdan), siyah boya figür",
+    "uc": "arka ışık + malzeme.mat koyu figür"
+  },
+  "gorunus_ipucu": "Silüetin rengi görünüşün mürekkebi; görüntü stili seçilmediyse düz koyu silüet, sıcak arka ışık",
+  "ornekler": [
+    "twoclipping-041659",
+    "nft-chen-068069"
+  ],
+  "demo": "src/katalog/animasyon/ornekler.tsx#siluet-golge"
+}

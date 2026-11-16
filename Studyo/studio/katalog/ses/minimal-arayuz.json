@@ -1,0 +1,39 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog ses stili: müzik (iki kaynak: \"kod\" = pipeline/muzik_stiller.py ön ayarı, \"ace\" = ACE-Step 1.5 yerel üretim), efekt ailesi (pipeline/sfx.py), anlatıcı ayarı ve miks. ./st yeni --ses ile script.json'a işlenir.",
+  "ad": "minimal-arayuz",
+  "baslik": "Minimal arayüz",
+  "ozet": "Marimba deseni, yumuşak tıklar, havalı pad. Ürün, uygulama, teknoloji açıklaması.",
+  "uygun": [
+    "ürün demosu",
+    "teknoloji",
+    "açıklayıcı"
+  ],
+  "kaynak": "katalog",
+  "muzik": {
+    "kod": {
+      "stil": "minimal",
+      "bpm": 110,
+      "ton": "C"
+    },
+    "ace": {
+      "caption": "minimal modern tech underscore, glassy marimba pattern, soft clicks, airy pad, clean and optimistic, instrumental",
+      "bpm": 110,
+      "ton": "C major",
+      "tohum": 42
+    }
+  },
+  "efekt": [
+    "wood_tok",
+    "shimmer",
+    "whoosh"
+  ],
+  "anlatim": {
+    "rate": "+8%",
+    "pitch": "+0Hz"
+  },
+  "miks": {
+    "muzik_db": -19,
+    "duck_db": -9,
+    "sessizlik": "yok"
+  }
+}

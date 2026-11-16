@@ -1,0 +1,20 @@
+{
+  "ad": "dikey-anlatim",
+  "aciklama": "Anlatıcılı dikey kısa video: açıklayıcı, hikâye, bilgi (Reels, Shorts, TikTok, hikâye, ekran)",
+  "formatlar": ["9x16"],
+  "anlatim": true,
+  "sure": [20, 60],
+  "kanca_sn": 3.0,
+  "kanca_kelime": 8,
+  "wpm": [125, 160],
+  "cumle_ort": 9,
+  "cumle_max": 14,
+  "toplam_kelime": [40, 160],
+  "olay_bosluk_sn": 3.0,
+  "senkron_kare": 4,
+  "lufs": [-15, -13],
+  "tp": -1.0,
+  "vuruslar": ["Kanca", "Bağlam", "Gelişme", "Doruk", "Kapanış"],
+  "dongu": false,
+  "kaynak_zorunlu": true
+}

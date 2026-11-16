@@ -1,0 +1,740 @@
+{
+ "gorsel": [
+  {
+   "ad": "arsiv-belgesel",
+   "baslik": "Arşiv / belgesel",
+   "ozet": "Sepya kâğıt, arşiv siyahı, klasik serif. Tarih, biyografi, belgesel anlatı.",
+   "uygun": [
+    "tarih",
+    "biyografi",
+    "belgesel"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/gorsel/arsiv-belgesel.png",
+   "varyasyonlar": [
+    {
+     "harf": "a",
+     "ad": "Sepya arşiv",
+     "onizleme": "studio/katalog/onizleme/gorsel/arsiv-belgesel-a.png"
+    },
+    {
+     "harf": "b",
+     "ad": "Arşiv karanlığı",
+     "onizleme": "studio/katalog/onizleme/gorsel/arsiv-belgesel-b.png"
+    },
+    {
+     "harf": "c",
+     "ad": "Gri gazete",
+     "onizleme": "studio/katalog/onizleme/gorsel/arsiv-belgesel-c.png"
+    }
+   ]
+  },
+  {
+   "ad": "duz-illustrasyon",
+   "baslik": "Düz illüstrasyon dünyası",
+   "ozet": "Yuvarlak formlu, düz renkli çizgi film dünyası: ifadeli karakterler, maskot, ayrıntılı mekânlar. Kampanya, bağış, çocuk, eğitim, sıcak marka hikâyesi.",
+   "uygun": [
+    "kampanya",
+    "bağış",
+    "çocuk",
+    "eğitim",
+    "marka hikâyesi",
+    "masal"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/gorsel/duz-illustrasyon.png",
+   "varyasyonlar": [
+    {
+     "harf": "a",
+     "ad": "Gece → şafak",
+     "onizleme": "studio/katalog/onizleme/gorsel/duz-illustrasyon-a.png"
+    },
+    {
+     "harf": "b",
+     "ad": "Şeftali oda",
+     "onizleme": "studio/katalog/onizleme/gorsel/duz-illustrasyon-b.png"
+    },
+    {
+     "harf": "c",
+     "ad": "Çayır gündüz",
+     "onizleme": "studio/katalog/onizleme/gorsel/duz-illustrasyon-c.png"
+    }
+   ]
+  },
+  {
+   "ad": "editoryal-kagit",
+   "baslik": "Editoryal kâğıt",
+   "ozet": "Sıcak kâğıt, mürekkep, tek vurgu. Sakin ve kesin: açıklayıcı, tanıtım, deneme.",
+   "uygun": [
+    "açıklayıcı",
+    "tanıtım",
+    "fikir videosu"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/gorsel/editoryal-kagit.png",
+   "varyasyonlar": [
+    {
+     "harf": "a",
+     "ad": "Kâğıt ve turuncu",
+     "onizleme": "studio/katalog/onizleme/gorsel/editoryal-kagit-a.png"
+    },
+    {
+     "harf": "b",
+     "ad": "Kâğıt ve mavi serif",
+     "onizleme": "studio/katalog/onizleme/gorsel/editoryal-kagit-b.png"
+    },
+    {
+     "harf": "c",
+     "ad": "Kâğıt ve yeşil grotesk",
+     "onizleme": "studio/katalog/onizleme/gorsel/editoryal-kagit-c.png"
+    }
+   ]
+  },
+  {
+   "ad": "gece-sinematik",
+   "baslik": "Gece sinematik",
+   "ozet": "Koyu zemin, tek sıcak ışık, film greni ve ışık taşması. Dram, gerilim, kamu spotu.",
+   "uygun": [
+    "kamu spotu",
+    "gerilim",
+    "belgesel kısa"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/gorsel/gece-sinematik.png",
+   "varyasyonlar": [
+    {
+     "harf": "a",
+     "ad": "Sodyum lambası",
+     "onizleme": "studio/katalog/onizleme/gorsel/gece-sinematik-a.png"
+    },
+    {
+     "harf": "b",
+     "ad": "Soğuk mavi gece",
+     "onizleme": "studio/katalog/onizleme/gorsel/gece-sinematik-b.png"
+    },
+    {
+     "harf": "c",
+     "ad": "Alarm kırmızısı",
+     "onizleme": "studio/katalog/onizleme/gorsel/gece-sinematik-c.png"
+    }
+   ]
+  },
+  {
+   "ad": "harita-masasi",
+   "baslik": "Harita masası",
+   "ozet": "Ahşap masa, parşömen harita, mum ışığı. Tarih ve coğrafya anlatısı.",
+   "uygun": [
+    "tarih",
+    "coğrafya",
+    "sefer"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/gorsel/harita-masasi.png",
+   "varyasyonlar": [
+    {
+     "harf": "a",
+     "ad": "Mum ışığı",
+     "onizleme": "studio/katalog/onizleme/gorsel/harita-masasi-a.png"
+    },
+    {
+     "harf": "b",
+     "ad": "Gündüz haritası",
+     "onizleme": "studio/katalog/onizleme/gorsel/harita-masasi-b.png"
+    },
+    {
+     "harf": "c",
+     "ad": "Deniz haritası",
+     "onizleme": "studio/katalog/onizleme/gorsel/harita-masasi-c.png"
+    }
+   ]
+  },
+  {
+   "ad": "isvicre-izgara",
+   "baslik": "İsviçre ızgarası",
+   "ozet": "Görünür ızgara, temiz grotesk, ana renkler. Düzen ve netlik: veri, süreç, kurum.",
+   "uygun": [
+    "açıklayıcı",
+    "süreç",
+    "kurumsal"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/gorsel/isvicre-izgara.png",
+   "varyasyonlar": [
+    {
+     "harf": "a",
+     "ad": "Beyaz ve kırmızı",
+     "onizleme": "studio/katalog/onizleme/gorsel/isvicre-izgara-a.png"
+    },
+    {
+     "harf": "b",
+     "ad": "Gri ve mavi",
+     "onizleme": "studio/katalog/onizleme/gorsel/isvicre-izgara-b.png"
+    },
+    {
+     "harf": "c",
+     "ad": "Siyah ve sarı",
+     "onizleme": "studio/katalog/onizleme/gorsel/isvicre-izgara-c.png"
+    }
+   ]
+  },
+  {
+   "ad": "kil-maket",
+   "baslik": "Kil maket",
+   "ozet": "Masa üstü bir kil ve kâğıt maketi: parmak izli kil, lifli kâğıt, gerçek ışık ve alan derinliği. Kampanya, bağış, masal, sıcak marka hikâyesi; yazı ve logo üstte.",
+   "uygun": [
+    "kampanya",
+    "bağış",
+    "masal",
+    "marka hikâyesi",
+    "teaser"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/gorsel/kil-maket.png",
+   "varyasyonlar": [
+    {
+     "harf": "a",
+     "ad": "Gece masalı · tek sıcak pencere",
+     "onizleme": "studio/katalog/onizleme/gorsel/kil-maket-a.png"
+    },
+    {
+     "harf": "b",
+     "ad": "Gün ışığı atölyesi · pastel kil",
+     "onizleme": "studio/katalog/onizleme/gorsel/kil-maket-b.png"
+    },
+    {
+     "harf": "c",
+     "ad": "Altın saat · terrakota",
+     "onizleme": "studio/katalog/onizleme/gorsel/kil-maket-c.png"
+    }
+   ]
+  },
+  {
+   "ad": "pastel-illustrasyon",
+   "baslik": "Pastel illüstrasyon",
+   "ozet": "Yumuşak renkler, yuvarlak yazı, sıcak el işi. Çocuk, sağlık, eğitim, samimi anlatı.",
+   "uygun": [
+    "eğitim",
+    "sağlık",
+    "samimi tanıtım"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/gorsel/pastel-illustrasyon.png",
+   "varyasyonlar": [
+    {
+     "harf": "a",
+     "ad": "Şeftali",
+     "onizleme": "studio/katalog/onizleme/gorsel/pastel-illustrasyon-a.png"
+    },
+    {
+     "harf": "b",
+     "ad": "Nane",
+     "onizleme": "studio/katalog/onizleme/gorsel/pastel-illustrasyon-b.png"
+    },
+    {
+     "harf": "c",
+     "ad": "Lavanta",
+     "onizleme": "studio/katalog/onizleme/gorsel/pastel-illustrasyon-c.png"
+    }
+   ]
+  },
+  {
+   "ad": "pop-kolaj",
+   "baslik": "Pop kolaj",
+   "ozet": "Canlı renk, kesik kenarlı çıkartmalar, ofset nokta dokusu. Enerjik, eğlenceli, sosyal medya.",
+   "uygun": [
+    "tanıtım",
+    "eğlence",
+    "trend"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/gorsel/pop-kolaj.png",
+   "varyasyonlar": [
+    {
+     "harf": "a",
+     "ad": "Pembe kolaj",
+     "onizleme": "studio/katalog/onizleme/gorsel/pop-kolaj-a.png"
+    },
+    {
+     "harf": "b",
+     "ad": "Sarı kolaj",
+     "onizleme": "studio/katalog/onizleme/gorsel/pop-kolaj-b.png"
+    },
+    {
+     "harf": "c",
+     "ad": "Gece kolajı",
+     "onizleme": "studio/katalog/onizleme/gorsel/pop-kolaj-c.png"
+    }
+   ]
+  },
+  {
+   "ad": "poster-brutalist",
+   "baslik": "Poster / brütalist",
+   "ozet": "Dev ve kalın yazı, düz yoğun renk, sert kontrast. Bağırarak uyarır, dikkat çeker.",
+   "uygun": [
+    "kamu spotu",
+    "tanıtım",
+    "duyuru"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/gorsel/poster-brutalist.png",
+   "varyasyonlar": [
+    {
+     "harf": "a",
+     "ad": "Uyarı levhası",
+     "onizleme": "studio/katalog/onizleme/gorsel/poster-brutalist-a.png"
+    },
+    {
+     "harf": "b",
+     "ad": "Kobalt poster",
+     "onizleme": "studio/katalog/onizleme/gorsel/poster-brutalist-b.png"
+    },
+    {
+     "harf": "c",
+     "ad": "Krem ve kırmızı",
+     "onizleme": "studio/katalog/onizleme/gorsel/poster-brutalist-c.png"
+    }
+   ]
+  },
+  {
+   "ad": "tutanak-belge",
+   "baslik": "Tutanak / belge",
+   "ozet": "Daktilo harfi, mühür, fotokopi dokusu. Soğuk resmî dil; alaycı ya da soruşturan anlatı.",
+   "uygun": [
+    "kamu spotu",
+    "soruşturma",
+    "tarih belgesi"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/gorsel/tutanak-belge.png",
+   "varyasyonlar": [
+    {
+     "harf": "a",
+     "ad": "Kaza tutanağı",
+     "onizleme": "studio/katalog/onizleme/gorsel/tutanak-belge-a.png"
+    },
+    {
+     "harf": "b",
+     "ad": "Manila dosya",
+     "onizleme": "studio/katalog/onizleme/gorsel/tutanak-belge-b.png"
+    },
+    {
+     "harf": "c",
+     "ad": "Gri fotokopi",
+     "onizleme": "studio/katalog/onizleme/gorsel/tutanak-belge-c.png"
+    }
+   ]
+  },
+  {
+   "ad": "veri-gazeteciligi",
+   "baslik": "Veri gazeteciliği",
+   "ozet": "Temiz zemin, kendini çizen grafikler, mono etiketler. Rakamla anlatılan hikâye.",
+   "uygun": [
+    "veri hikâyesi",
+    "açıklayıcı",
+    "haber"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/gorsel/veri-gazeteciligi.png",
+   "varyasyonlar": [
+    {
+     "harf": "a",
+     "ad": "Açık veri",
+     "onizleme": "studio/katalog/onizleme/gorsel/veri-gazeteciligi-a.png"
+    },
+    {
+     "harf": "b",
+     "ad": "Lacivert veri",
+     "onizleme": "studio/katalog/onizleme/gorsel/veri-gazeteciligi-b.png"
+    },
+    {
+     "harf": "c",
+     "ad": "Gazete verisi",
+     "onizleme": "studio/katalog/onizleme/gorsel/veri-gazeteciligi-c.png"
+    }
+   ]
+  }
+ ],
+ "animasyon": [
+  {
+   "ad": "arayuz-demo",
+   "baslik": "Arayüz / ürün demosu",
+   "ozet": "İmleç gerçek tıklar, yazı harf harf yazılır, sonuçlar kayar: ürün kendini kullanarak anlatır.",
+   "uygun": [
+    "ürün tanıtımı",
+    "uygulama",
+    "eğitim"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/arayuz-demo.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/arayuz-demo.png"
+  },
+  {
+   "ad": "bilgi-grafigi",
+   "baslik": "Bilgi grafiği / veri",
+   "ozet": "Eksenler çizilir, sütun ve çizgiler kendini kurar, sayaçlar akar, not çizgisi tek bir değere uzanır.",
+   "uygun": [
+    "veri hikâyesi",
+    "açıklayıcı",
+    "haber"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/bilgi-grafigi.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/bilgi-grafigi.png"
+  },
+  {
+   "ad": "cizim",
+   "baslik": "Kendini çizen çizim",
+   "ozet": "Tek bir çizgi kendini çizer, dolgu gelir, el yazısı not altını çizer. Tahta, defter, mürekkep.",
+   "uygun": [
+    "açıklayıcı",
+    "eğitim",
+    "fikir"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/cizim.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/cizim.png"
+  },
+  {
+   "ad": "dunya-kuresi",
+   "baslik": "Dünya küresi",
+   "ozet": "Gerçek coğrafyalı bir dünya küresi döner, kamera bir yere iner, işaret nabız atar ve yer adı gelir. Bir yardımın, bir yolculuğun ya da bir verinin dünyadaki yeri tek hamlede okunur.",
+   "uygun": [
+    "bağış",
+    "kampanya",
+    "haber",
+    "veri hikâyesi",
+    "lojistik",
+    "belgesel"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/dunya-kuresi.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/dunya-kuresi.png"
+  },
+  {
+   "ad": "harita-dalisi",
+   "baslik": "Harita dalışı",
+   "ozet": "Kamera haritaya logaritmik ölçekte dalar, rota kendini çizer, iğne düşer, etiketler yerine oturur.",
+   "uygun": [
+    "tarih",
+    "coğrafya",
+    "seyahat"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/harita-dalisi.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/harita-dalisi.png"
+  },
+  {
+   "ad": "izgara-montaj",
+   "baslik": "Izgara montaj",
+   "ozet": "Modüler ızgara; hücreler vuruşla dolar, vurgu hücresi yer değiştirir. Hızlı, düzenli, müzikli.",
+   "uygun": [
+    "tanıtım",
+    "liste",
+    "müzikli"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/izgara-montaj.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/izgara-montaj.png"
+  },
+  {
+   "ad": "kagit-kolaj",
+   "baslik": "Kesik kolaj (stop-motion)",
+   "ozet": "Kesilmiş parçalar stop-motion gibi ikilerde kayar, döner, üst üste biner; her parçanın gölgesi katmanları ayırır. Parçaların malzemesini görüntü stili belirler: kâğıt, fotoğraf, kumaş, düz renk.",
+   "uygun": [
+    "masal",
+    "eğitim",
+    "samimi anlatı"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/kagit-kolaj.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/kagit-kolaj.png"
+  },
+  {
+   "ad": "kinetik-tipografi",
+   "baslik": "Kinetik tipografi",
+   "ozet": "Kelimeler sahneyi kurar: ifadeler maske çizgisinden yükselir, satır yeniden dizilir, vurgu kelimesi büyür.",
+   "uygun": [
+    "konuşma",
+    "manifesto",
+    "kanca",
+    "alıntı"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/kinetik-tipografi.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/kinetik-tipografi.png"
+  },
+  {
+   "ad": "maket-dunyasi",
+   "baslik": "Maket / minyatür dünya",
+   "ozet": "Dünya masa üstü bir maket kadar küçük ve elle tutulur: kamera maketin içinde yavaşça yol alır, sığ alan derinliği ölçeği anlatır, tek bir ışık yanar ve dünya değişir. Malzemeyi görüntü stili belirler: kil, ahşap, oyuncak, kâğıt, düşük poligon.",
+   "uygun": [
+    "kampanya",
+    "bağış",
+    "masal",
+    "marka hikâyesi",
+    "teaser"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/maket-dunyasi.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/maket-dunyasi.png"
+  },
+  {
+   "ad": "maskot-yolculugu",
+   "baslik": "Maskot yolculuğu",
+   "ozet": "Bir maskot (kanatlı kalp, kâğıt uçak, kıvılcım) düğmeden doğar, eğri bir yolda dünyayı dolaşır, varır ve sahneyi dönüştürür. Çizgi film karakterleri, kelime kelime altyazı, marka kapanışı.",
+   "uygun": [
+    "kampanya",
+    "bağış",
+    "reklam",
+    "çocuk",
+    "marka hikâyesi"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/maskot-yolculugu.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/maskot-yolculugu.png"
+  },
+  {
+   "ad": "parcacik-alani",
+   "baslik": "Parçacık / shader alanı",
+   "ozet": "Akan bir gölgelendirici alanı (mürekkep, dalga ya da ışık halkası) ve içinde süzülen parçacıklar; büyük yazı alanın içinden belirir. Arka planı canlı tutan, yazıyı taşıyan bir zemin.",
+   "uygun": [
+    "açılış",
+    "başlık kartı",
+    "müzik",
+    "marka",
+    "geçiş"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/parcacik-alani.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/parcacik-alani.png"
+  },
+  {
+   "ad": "siluet-golge",
+   "baslik": "Silüet / gölge tiyatrosu",
+   "ozet": "Arkadan ışık, katmanlı silüetler, süpüren ışık. İnsan çizmeden duygu ve atmosfer.",
+   "uygun": [
+    "masal",
+    "dram",
+    "kamu spotu"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/siluet-golge.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/siluet-golge.png"
+  },
+  {
+   "ad": "sonsuz-yakinlasma",
+   "baslik": "Sonsuz yakınlaşma",
+   "ozet": "İç içe dünyalar: her sahne bir öncekinin içinde, kamera sürekli ve logaritmik olarak yaklaşır.",
+   "uygun": [
+    "ölçek anlatısı",
+    "kanca",
+    "döngü"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/sonsuz-yakinlasma.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/sonsuz-yakinlasma.png"
+  },
+  {
+   "ad": "tek-nesne",
+   "baslik": "Tek nesne dönüşümü",
+   "ozet": "Tek bir biçim hiç kesilmeden sahneden sahneye dönüşür: daire, hap, kart, çubuk. Film tek düşünce gibi akar.",
+   "uygun": [
+    "ürün tanıtımı",
+    "süreç",
+    "logo"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/tek-nesne.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/tek-nesne.png"
+  },
+  {
+   "ad": "urun-3b",
+   "baslik": "3B ürün / nesne",
+   "ozet": "Bir nesne (telefon, kutu, şişe, logo) stüdyo ışığında yükselir ve döner tabla gibi çevrilir; ışık üstünden geçer ve yüzeyde parıltı kayar. Adı ya da tek cümlesi altta.",
+   "uygun": [
+    "ürün tanıtımı",
+    "uygulama",
+    "marka",
+    "teaser",
+    "lansman"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": "studio/katalog/onizleme/animasyon/urun-3b.mp4",
+   "poster": "studio/katalog/onizleme/animasyon/urun-3b.png"
+  }
+ ],
+ "ses": [
+  {
+   "ad": "belgesel-sakin",
+   "baslik": "Belgesel sakin",
+   "ozet": "Yumuşak piyano ve yaylı katmanı, davulsuz. Anlatıyı taşır, öne çıkmaz.",
+   "uygun": [
+    "belgesel",
+    "açıklayıcı",
+    "tarih"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": {
+    "ace": "studio/katalog/onizleme/ses/belgesel-sakin-ace.mp3",
+    "kod": "studio/katalog/onizleme/ses/belgesel-sakin-kod.mp3"
+   }
+  },
+  {
+   "ad": "enerjik-elektronik",
+   "baslik": "Enerjik elektronik",
+   "ozet": "Kick, yan zincirli bas, parlak arpej, yükseliş ve patlama. Tanıtım, ürün, hızlı liste.",
+   "uygun": [
+    "tanıtım",
+    "ürün",
+    "müzikli"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": {
+    "ace": "studio/katalog/onizleme/ses/enerjik-elektronik-ace.mp3",
+    "kod": "studio/katalog/onizleme/ses/enerjik-elektronik-kod.mp3"
+   }
+  },
+  {
+   "ad": "gerilim-drone",
+   "baslik": "Gerilim / drone",
+   "ozet": "Alçak drone, kalp atışı nabzı, uzak metal vuruşlar. Kamu spotu, gerilim, uyarı.",
+   "uygun": [
+    "kamu spotu",
+    "gerilim",
+    "dram"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": {
+    "ace": "studio/katalog/onizleme/ses/gerilim-drone-ace.mp3",
+    "kod": "studio/katalog/onizleme/ses/gerilim-drone-kod.mp3"
+   }
+  },
+  {
+   "ad": "haber-bulteni",
+   "baslik": "Haber bülteni",
+   "ozet": "Tıklayan saat perküsyonu, kesik yaylılar, sentez bas. Ciddi, acil, net anlatım.",
+   "uygun": [
+    "haber",
+    "veri",
+    "duyuru"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": {
+    "ace": "studio/katalog/onizleme/ses/haber-bulteni-ace.mp3",
+    "kod": "studio/katalog/onizleme/ses/haber-bulteni-kod.mp3"
+   }
+  },
+  {
+   "ad": "lofi-sicak",
+   "baslik": "Lo-fi sıcak",
+   "ozet": "Tozlu davul, elektrik piyano akorları, plak cızırtısı. Samimi, yavaş, anlatıcı yakın.",
+   "uygun": [
+    "günlük",
+    "samimi anlatı",
+    "eğitim"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": {
+    "ace": "studio/katalog/onizleme/ses/lofi-sicak-ace.mp3",
+    "kod": "studio/katalog/onizleme/ses/lofi-sicak-kod.mp3"
+   }
+  },
+  {
+   "ad": "minimal-arayuz",
+   "baslik": "Minimal arayüz",
+   "ozet": "Marimba deseni, yumuşak tıklar, havalı pad. Ürün, uygulama, teknoloji açıklaması.",
+   "uygun": [
+    "ürün demosu",
+    "teknoloji",
+    "açıklayıcı"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": {
+    "ace": "studio/katalog/onizleme/ses/minimal-arayuz-ace.mp3",
+    "kod": "studio/katalog/onizleme/ses/minimal-arayuz-kod.mp3"
+   }
+  },
+  {
+   "ad": "neseli-sicak",
+   "baslik": "Neşeli sıcak",
+   "ozet": "Ukulele vuruşu, glockenspiel melodisi, el çırpma; dokunuş, baloncuk, parıltı ve konfeti efektleri. Çizgi film, kampanya, çocuk.",
+   "uygun": [
+    "kampanya",
+    "çocuk",
+    "bağış",
+    "çizgi film"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": {
+    "ace": "studio/katalog/onizleme/ses/neseli-sicak-ace.mp3",
+    "kod": "studio/katalog/onizleme/ses/neseli-sicak-kod.mp3"
+   }
+  },
+  {
+   "ad": "sessizlik-tek-vurus",
+   "baslik": "Sessizlik + tek vuruş",
+   "ozet": "Müzik yok: oda tonu, anlatıcı ve tek bir derin darbe. Ağır mesaj, yas, kamu spotu.",
+   "uygun": [
+    "kamu spotu",
+    "ağır mesaj",
+    "anma"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": {
+    "ace": "studio/katalog/onizleme/ses/sessizlik-tek-vurus-ace.mp3",
+    "kod": "studio/katalog/onizleme/ses/sessizlik-tek-vurus-kod.mp3"
+   }
+  },
+  {
+   "ad": "sinematik-yukselis",
+   "baslik": "Sinematik yükseliş",
+   "ozet": "Taiko, yükselen yaylılar, bakır vuruşlar, büyük patlama. Duyuru, fragman, doruk.",
+   "uygun": [
+    "fragman",
+    "duyuru",
+    "tarih"
+   ],
+   "kaynak": "katalog",
+   "durum": "onayli",
+   "onizleme": {
+    "ace": "studio/katalog/onizleme/ses/sinematik-yukselis-ace.mp3",
+    "kod": "studio/katalog/onizleme/ses/sinematik-yukselis-kod.mp3"
+   }
+  }
+ ]
+}

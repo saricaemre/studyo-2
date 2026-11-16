@@ -1,0 +1,21 @@
+{
+  "ad": "yatay-anlatim",
+  "aciklama": "Anlatıcılı yatay video (3–15 dk; YouTube, web, eğitim, sunum): bölümlü açıklayıcı, belgesel, video deneme",
+  "formatlar": ["16x9"],
+  "anlatim": true,
+  "sure": [180, 900],
+  "kanca_sn": 20.0,
+  "kanca_kelime": 50,
+  "wpm": [130, 165],
+  "cumle_ort": 12,
+  "cumle_max": 22,
+  "toplam_kelime": [400, 2400],
+  "olay_bosluk_sn": 6.0,
+  "senkron_kare": 6,
+  "lufs": [-15, -13],
+  "tp": -1.0,
+  "vuruslar": ["Kanca", "Vaat", "Bölüm", "Doruk", "Kapanış"],
+  "tekrar_eden_vuruslar": ["Bölüm"],
+  "dongu": false,
+  "kaynak_zorunlu": true
+}

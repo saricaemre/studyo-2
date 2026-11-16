@@ -1,0 +1,43 @@
+STÜDYO · KURULUM
+================
+
+Bu paket, kodla video üreten stüdyoyu ve tarayıcıda açılan panelini senin Mac'ine kurar.
+İçinde örnek bir film olabilir (ör. ihh_sofra: illüstrasyonlu kampanya filmi); panelde Filmler sayfasında
+(ya da Arşiv'de) görünür.
+
+GEREKENLER
+- Apple Silicon Mac (M1, M2, M3, M4) ve macOS 14 ya da üstü
+- En az 8 GB boş disk (ACE-Step müzik modeli istersen +12 GB)
+- İnternet (kurulumda paketler iner)
+- Kendi Claude hesabın (Pro ya da Max). Panel videoları Claude'a ürettirir; Claude senin hesabınla çalışır.
+
+KURULUM (bir kez, 10–20 dakika)
+1. Zip'i aç (çift tık). "Studyo-kurulum" klasörü çıkar.
+   GitHub'dan geldiyse: depo sayfasında yeşil Code düğmesi → Download ZIP, inen zip'i aç.
+2. Klasördeki Kur.command'a çift tıkla.
+   macOS "açılamıyor" derse: Terminal'i aç (Uygulamalar → İzlenceler → Terminal), "bash " yaz (sonunda boşluk),
+   Kur.command'ı Terminal penceresine sürükle bırak ve Enter'a bas.
+3. Betik sırayla Homebrew, ffmpeg, Node.js, Python ortamı, render tarayıcıları ve Claude Code'u kurar.
+   Mac şifren istenirse yaz (yazarken görünmez). Claude'a giriş istenirse kendi hesabınla giriş yap, sonra /exit yaz.
+4. Sonda ACE-Step (yapay zekâ müzik modeli) sorulur. İstemezsen Enter: stüdyo kodla üretilen müzikle çalışır.
+5. Bitince panel tarayıcıda açılır. Stüdyo ~/Studyo klasörüne kurulur; masaüstünde "Stüdyo Paneli" kısayolu olur.
+
+KULLANIM
+- Paneli aç: masaüstünde "Stüdyo Paneli"ye çift tıkla → http://localhost:4777
+- "Yeni film"e fikrini kendi cümlelerinle yaz. İstersen film türü, format, motor (Remotion: yazı, veri, harita ·
+  HyperFrames: karakter, çizgi film, kampanya · Blender: gerçek 3B ışık ve malzeme), anlatıcı, altyazı, müzik ve
+  katalogdan esin kartları seç; seçmezsen Claude filme özel icat eder. "Claude'a gönder"e bas.
+- Claude birbirinden farklı üç yol (üç fikir, her biri kendi kanca karesiyle) önerir; sen birini seçersin, Claude planı
+  o yolda tamamlar, sen planı onaylarsın. Sonra Claude filmi üretir, ölçer, en büyük kusurları onarır; sen filmi onaylarsın.
+- Panelin "Nasıl çalışır?" sayfası bütün araçları kısaca anlatır.
+- Magnific (ücretli yapay zekâ görseli ve anlatıcı) bu pakete bağlı gelmez; bağlı değilken panel o seçenekleri gizler
+  ve stüdyo her şeyi kendi yollarıyla yapar.
+- Bitmiş videolar ~/Studyo/cikti klasörüne gelir.
+
+GÜNCELLEME
+Yeni sürümü indir (GitHub'da Code → Download ZIP ya da git pull) ve Kur.command'ı yeniden
+çalıştır. Bunda yalnız stüdyonun kodu yenilenir; videoların, markaların, ayarların ve
+çıktıların olduğu gibi kalır.
+
+SORUN OLURSA
+Kurulum penceresinde kırmızı bir ✗ satırı görürsen ekran görüntüsüyle stüdyonun GitHub sayfasında bir issue aç.

@@ -1,0 +1,60 @@
+/* İHH İnsani Yardım Vakfı: tasarım token'ları
+   Kaynak: ihh.org.tr (15 Ekim 2026). Ayrıntı: IHH_Marka_Kimligi.md */
+:root{
+  /* Kurumsal (logo) */
+  --ihh-green-dark:#026839;
+  --ihh-gold:#A09744;
+
+  /* Dijital ana renk: CTA, link, ilerleme */
+  --ihh-green:#1FAD4E;
+  --ihh-focus:rgba(31,173,78,.3);
+
+  /* Kampanya renkleri */
+  --ihh-zekat:#E84545;
+  --ihh-emergency:#E23131;   /* Filistin / Gazze / acil */
+  --ihh-orphan:#22ABE6;      /* Yetim */
+
+  /* Yardımcı (ikon, kategori) */
+  --ihh-blue:#0C8ADF;
+  --ihh-yellow:#E2B513;
+  --ihh-lime:#7FBF40;
+
+  /* Nötrler */
+  --ihh-black:#000000;
+  --ihh-ink:#333333;
+  --ihh-label:#3F3F41;
+  --ihh-gray-700:#4C4C4C;
+  --ihh-gray-600:#666666;
+  --ihh-gray-400:#999999;
+  --ihh-gray-300:#CCCCCC;
+  --ihh-line:#E4E4E4;
+  --ihh-bg-strip:#F2F2F7;
+  --ihh-bg-soft:#F8F8F8;
+  --ihh-white:#FFFFFF;
+
+  /* Tipografi */
+  --ihh-font:"proxima-soft","Proxima Soft",Tajawal,Nunito,Arial,sans-serif;
+  --ihh-font-ar:Tajawal,"proxima-soft",Arial,sans-serif;
+  --ihh-tracking:-0.016em;
+
+  /* Biçim */
+  --ihh-radius:8px;
+  --ihh-radius-card:6px;
+  --ihh-radius-sm:4px;
+  --ihh-radius-pill:100px;
+  --ihh-shadow-card:0 3px 5px rgba(0,0,0,.05);
+  --ihh-shadow-pop:0 1px 10px rgba(0,0,0,.1),0 2px 15px rgba(0,0,0,.05);
+  --ihh-container:1170px;
+}
+
+.ihh-btn{display:inline-flex;align-items:center;gap:.5em;font-family:var(--ihh-font);font-size:16px;
+  letter-spacing:var(--ihh-tracking);color:#fff;background:var(--ihh-green);border:0;border-radius:var(--ihh-radius);
+  padding:15px 26px;text-decoration:none}
+.ihh-btn--zekat{background:var(--ihh-zekat)}
+.ihh-btn--emergency{background:var(--ihh-emergency)}
+.ihh-btn--orphan{background:var(--ihh-orphan)}
+.ihh-pill{border-radius:var(--ihh-radius-pill);padding:8px 18px;font-size:18px;font-weight:500}
+.ihh-card{background:#fff;border:1px solid var(--ihh-line);border-radius:var(--ihh-radius-card);
+  box-shadow:var(--ihh-shadow-card);padding:32px}
+.ihh-progress{height:8px;border-radius:4px;background:var(--ihh-line);overflow:hidden}
+.ihh-progress>span{display:block;height:100%;background:var(--ihh-green);border-radius:4px}

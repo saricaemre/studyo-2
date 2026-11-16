@@ -1,0 +1,46 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog ses stili: müzik (iki kaynak: \"kod\" = pipeline/muzik_stiller.py ön ayarı, \"ace\" = ACE-Step 1.5 yerel üretim), efekt ailesi (pipeline/sfx.py), anlatıcı ayarı ve miks. ./st yeni --ses ile script.json'a işlenir.",
+  "ad": "neseli-sicak",
+  "baslik": "Neşeli sıcak",
+  "ozet": "Ukulele vuruşu, glockenspiel melodisi, el çırpma; dokunuş, baloncuk, parıltı ve konfeti efektleri. Çizgi film, kampanya, çocuk.",
+  "uygun": [
+    "kampanya",
+    "çocuk",
+    "bağış",
+    "çizgi film"
+  ],
+  "kaynak": "katalog",
+  "muzik": {
+    "kod": {
+      "stil": "neseli",
+      "bpm": 120,
+      "ton": "C"
+    },
+    "ace": {
+      "caption": "cheerful heartwarming children's animation music, bright ukulele strumming, glockenspiel melody, light hand claps and shaker, warm acoustic bass, playful and joyful, instrumental",
+      "bpm": 120,
+      "ton": "C major",
+      "tohum": 42
+    }
+  },
+  "efekt": [
+    "tik",
+    "baloncuk",
+    "parilti",
+    "yay",
+    "can",
+    "gum",
+    "konfeti",
+    "tebesir",
+    "whoosh"
+  ],
+  "anlatim": {
+    "rate": "+6%",
+    "pitch": "+0Hz"
+  },
+  "miks": {
+    "muzik_db": -12,
+    "duck_db": -6,
+    "sessizlik": "yok"
+  }
+}

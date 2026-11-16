@@ -1,0 +1,8 @@
+# İsteğe bağlı motor: Manim Community (oturum 6c; karma filmin formül, grafik ve şema sahneleri). Kur.command bunu KURMAZ.
+# Kurulum (cairo ve pango Homebrew'dan: brew install cairo pango): uv pip install --python .venv/bin/python -r requirements-manim.txt
+# Sürüm sabit (pipeline/manim_kopru.py → SURUM): başka sürüm aynı sahneden başka plaka çizer. LaTeX (MathTex) gerekmez; isteğe bağlı BasicTeX
+# (brew install --cask basictex, yönetici parolası ister) kullanıcının kararıdır. Formül Text/Unicode ya da Typst (MathTypst) ile.
+manim==0.22.1
+typst==0.15.2
+fonttools==4.68.0
+brotli==1.2.1

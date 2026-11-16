@@ -1,0 +1,40 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "cizim",
+  "baslik": "Kendini çizen çizim",
+  "ozet": "Tek bir çizgi kendini çizer, dolgu gelir, el yazısı not altını çizer. Tahta, defter, mürekkep.",
+  "uygun": [
+    "açıklayıcı",
+    "eğitim",
+    "fikir"
+  ],
+  "kaynak": "katalog",
+  "kurallar": [
+    "Çizgi sabit hızla değil ortak eğriyle ilerler",
+    "Bir çizgi birden çok kez \"terfi eder\": taslak → kontur → nesne",
+    "Dolgu çizgi bittikten sonra"
+  ],
+  "kamera": "çizgiyi izler, sabit",
+  "gecis": "çizgi bir sonraki çizimin parçası olur",
+  "tempo": {
+    "olay_aralik_sn": [
+      1.5,
+      3.0
+    ]
+  },
+  "yasak": [
+    "el titremesi efekti abartısı",
+    "clip-art"
+  ],
+  "teknik": {
+    "remotion": "SVG stroke-dashoffset",
+    "hyperframes": "DrawSVGPlugin",
+    "blender": "Grease Pencil çizgisi ya da kit.kontur + yay boyunca büyüyen eğri (bevel)"
+  },
+  "gorunus_ipucu": "Görüntü stili seçilmediyse: kâğıt zemin, koyu mürekkep çizgi; el yazısı yalnız kısa notta",
+  "ornekler": [
+    "heyiamnick-119558",
+    "archiveexplorer-560622"
+  ],
+  "demo": "src/katalog/animasyon/ornekler.tsx#cizim"
+}

@@ -1,0 +1,117 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog görüntü stili: üç hazır varyasyon (a, b, c) = görünüş (renk, yazı, doku, ışık, malzeme dili). ./st yeni --gorsel ile videonun gorunus.json seçeneklerine kopyalanır; Claude videoya göre inceltebilir, seçimi kullanıcı yapar. Motoru ve hareketi SEÇMEZ: her motorda uygulanır. kurallar: stilin değişmezleri; teknik.<motor>: o motorda nasıl kurulur (uc = Three.js 3B katmanı). Blender'da renk alanındaki adlı renkler malzemelere gider (kit.renk), blender alanı ışık kararlarıdır; sahne kendi nesnelerine göre ad ekleyebilir. onizleme_motoru + onizleme_sahne: yalnız katalog önizlemesinin nerede ve hangi sahneyle çizildiği (./st katalog gorsel).",
+  "ad": "pastel-illustrasyon",
+  "baslik": "Pastel illüstrasyon",
+  "ozet": "Yumuşak renkler, yuvarlak yazı, sıcak el işi. Çocuk, sağlık, eğitim, samimi anlatı.",
+  "uygun": [
+    "eğitim",
+    "sağlık",
+    "samimi tanıtım"
+  ],
+  "kaynak": "katalog",
+  "varyasyonlar": {
+    "a": {
+      "ad": "Şeftali",
+      "fikir": "Şeftali zemin, kiremit vurgu, el yazısı not.",
+      "renk": {
+        "arka": "#FFF4E6",
+        "murekkep": "#3B2F2F",
+        "vurgu": "#C8553D",
+        "soluk": "#7A6A63"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Rubik",
+          "agirlik": 700,
+          "aralik": -0.02
+        },
+        "govde": {
+          "aile": "Rubik",
+          "agirlik": 400
+        },
+        "aksan": {
+          "aile": "Caveat",
+          "agirlik": 600
+        }
+      },
+      "doku": "kâğıt lifi, gren",
+      "isik": "yumuşak",
+      "hareket": "yaylanmadan yumuşak, hafif nefes",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "gren": 0.04,
+        "gren_karisim": "multiply",
+        "vinyet": 0.08
+      }
+    },
+    "b": {
+      "ad": "Nane",
+      "fikir": "Nane zemin, gece mavisi yazı, camgöbeği vurgu.",
+      "renk": {
+        "arka": "#EAF4F4",
+        "murekkep": "#23395B",
+        "vurgu": "#2A7F8F",
+        "soluk": "#5C6F7E"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Bricolage Grotesque",
+          "agirlik": 700,
+          "aralik": -0.02
+        },
+        "govde": {
+          "aile": "Manrope",
+          "agirlik": 500
+        },
+        "aksan": {
+          "aile": "Caveat",
+          "agirlik": 600
+        }
+      },
+      "doku": "sulu boya lekesi",
+      "isik": "yumuşak",
+      "hareket": "süzülür, yerine oturur",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "gren": 0.04,
+        "gren_karisim": "multiply"
+      }
+    },
+    "c": {
+      "ad": "Lavanta",
+      "fikir": "Lavanta zemin, koyu mor yazı, kehribar vurgu.",
+      "renk": {
+        "arka": "#F6EFFF",
+        "murekkep": "#2D2440",
+        "vurgu": "#9A5B00",
+        "soluk": "#6E6382"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Fraunces",
+          "agirlik": 700,
+          "aralik": -0.01
+        },
+        "govde": {
+          "aile": "Work Sans",
+          "agirlik": 400
+        },
+        "aksan": {
+          "aile": "Caveat",
+          "agirlik": 600
+        }
+      },
+      "doku": "kâğıt",
+      "isik": "yumuşak",
+      "hareket": "sayfa açılır gibi",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "gren": 0.04,
+        "gren_karisim": "multiply"
+      }
+    }
+  }
+}

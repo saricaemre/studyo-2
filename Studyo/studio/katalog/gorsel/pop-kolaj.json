@@ -1,0 +1,116 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog görüntü stili: üç hazır varyasyon (a, b, c) = görünüş (renk, yazı, doku, ışık, malzeme dili). ./st yeni --gorsel ile videonun gorunus.json seçeneklerine kopyalanır; Claude videoya göre inceltebilir, seçimi kullanıcı yapar. Motoru ve hareketi SEÇMEZ: her motorda uygulanır. kurallar: stilin değişmezleri; teknik.<motor>: o motorda nasıl kurulur (uc = Three.js 3B katmanı). Blender'da renk alanındaki adlı renkler malzemelere gider (kit.renk), blender alanı ışık kararlarıdır; sahne kendi nesnelerine göre ad ekleyebilir. onizleme_motoru + onizleme_sahne: yalnız katalog önizlemesinin nerede ve hangi sahneyle çizildiği (./st katalog gorsel).",
+  "ad": "pop-kolaj",
+  "baslik": "Pop kolaj",
+  "ozet": "Canlı renk, kesik kenarlı çıkartmalar, ofset nokta dokusu. Enerjik, eğlenceli, sosyal medya.",
+  "uygun": [
+    "tanıtım",
+    "eğlence",
+    "trend"
+  ],
+  "kaynak": "katalog",
+  "varyasyonlar": {
+    "a": {
+      "ad": "Pembe kolaj",
+      "fikir": "Pembe zemin, kobalt vurgu, siyah yazı.",
+      "renk": {
+        "arka": "#FF8FD0",
+        "murekkep": "#0E0F1F",
+        "vurgu": "#1B2BD9",
+        "soluk": "#3D2A44"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Syne",
+          "agirlik": 800,
+          "aralik": -0.02
+        },
+        "govde": {
+          "aile": "Inter",
+          "agirlik": 600
+        },
+        "aksan": {
+          "aile": "Caveat",
+          "agirlik": 700
+        }
+      },
+      "doku": "ofset nokta, kesik kenar gölgesi",
+      "isik": "yok",
+      "hareket": "çıkartmalar iner ve hafifçe sallanır",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "gren": 0.06,
+        "gren_karisim": "multiply"
+      }
+    },
+    "b": {
+      "ad": "Sarı kolaj",
+      "fikir": "Limon sarısı zemin, yeşil vurgu, kalın siyah harf.",
+      "renk": {
+        "arka": "#FFE14D",
+        "murekkep": "#0B0B0B",
+        "vurgu": "#00704A",
+        "soluk": "#4A4318"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Archivo Black",
+          "agirlik": 400,
+          "aralik": -0.02
+        },
+        "govde": {
+          "aile": "Archivo",
+          "agirlik": 500
+        },
+        "aksan": {
+          "aile": "Caveat",
+          "agirlik": 700
+        }
+      },
+      "doku": "ofset nokta",
+      "isik": "yok",
+      "hareket": "kayarak gelir, sallanarak durur",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "gren": 0.05,
+        "gren_karisim": "multiply"
+      }
+    },
+    "c": {
+      "ad": "Gece kolajı",
+      "fikir": "Siyah zemin, beyaz yazı, sıcak pembe vurgu.",
+      "renk": {
+        "arka": "#101010",
+        "murekkep": "#FFFFFF",
+        "vurgu": "#FF3EA5",
+        "soluk": "#9C9C9C"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Unbounded",
+          "agirlik": 700,
+          "aralik": -0.03
+        },
+        "govde": {
+          "aile": "Manrope",
+          "agirlik": 500
+        },
+        "aksan": {
+          "aile": "Caveat",
+          "agirlik": 700
+        }
+      },
+      "doku": "ofset nokta, parlak çıkartma",
+      "isik": "yok",
+      "hareket": "ritimle değişen kolaj",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "gren": 0.06,
+        "gren_karisim": "overlay"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "ad": "tarih-harita",
+  "aciklama": "İlk deneme konsepti: tarihte bir olayı harita üzerinde 35–50 sn'de anlatan dikey öğretici video (konseptler/tarih-harita/DUSTUR.md)",
+  "formatlar": [
+    "9x16"
+  ],
+  "anlatim": true,
+  "sure": [
+    35,
+    50
+  ],
+  "kanca_sn": 3.0,
+  "kanca_kelime": 6,
+  "wpm": [
+    120,
+    135
+  ],
+  "cumle_ort": 7,
+  "cumle_max": 10,
+  "toplam_kelime": [
+    60,
+    110
+  ],
+  "olay_bosluk_sn": 3.0,
+  "senkron_kare": 4,
+  "lufs": [
+    -15,
+    -13
+  ],
+  "tp": -1.0,
+  "isim_max": 3,
+  "sayi_max": 2,
+  "vuruslar": [
+    "Kanca",
+    "Çapa",
+    "Düğüm",
+    "Hamle",
+    "Sonuç",
+    "Ders"
+  ],
+  "sessizlik_once": "Hamle",
+  "dongu": true,
+  "kaynak_zorunlu": true,
+  "goz": [
+    "Kanca bir soru/paradoks açıyor, Ders onu kapatıyor",
+    "Yer + yıl (mühür) ekranda",
+    "Kavram ≤ 1 ve kavram kartı ilk söylendiği anda",
+    "Ders cümlesi başka bir olaya da uyuyor"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "kinetik-tipografi",
+  "baslik": "Kinetik tipografi",
+  "ozet": "Kelimeler sahneyi kurar: ifadeler maske çizgisinden yükselir, satır yeniden dizilir, vurgu kelimesi büyür.",
+  "uygun": [
+    "konuşma",
+    "manifesto",
+    "kanca",
+    "alıntı"
+  ],
+  "kaynak": "katalog",
+  "kurallar": [
+    "Önce okunur, sonra oynar: kelime okunma süresi (okuma()) dolmadan süs hareketine başlamaz",
+    "İfade grupları konuşmanın duraklarına göre; dans vuruşuna zorlanmaz",
+    "Tek görsel kural: kelimelerin bir rolü var (taban çizgisi yörünge, kelime yük, kelime destek)",
+    "Bir anda tek yazı katmanı; okunan ifade ≥ 64 px",
+    "Harfler maskeden tek tek yükselir; nokta yok"
+  ],
+  "kamera": "neredeyse sabit; yalnız çok yavaş yaklaşma (%3)",
+  "gecis": "kelime bir sonraki satıra dönüşür ya da maskeden çıkar; çapraz geçiş yok",
+  "tempo": {
+    "olay_aralik_sn": [
+      1.2,
+      2.5
+    ]
+  },
+  "yasak": [
+    "her kelimenin ayrı zıplaması",
+    "fade-in metin",
+    "okunmadan hareket eden yazı"
+  ],
+  "teknik": {
+    "remotion": "okuma() süresi, maske yükselişi",
+    "hyperframes": "SplitText + maske",
+    "blender": "yazı Remotion üst katmanında (plakaya çizilmez)"
+  },
+  "ornekler": [
+    "gdgtify-929495",
+    "gdgtify-989608",
+    "techhalla-498547",
+    "gdgtify-130294"
+  ],
+  "demo": "src/katalog/animasyon/ornekler.tsx#kinetik-tipografi"
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stüdyo</title>
+<link rel="stylesheet" href="/statik/stil.css">
+</head>
+<body>
+<div class="ortam" aria-hidden="true"><img id="ortam-img" alt=""><canvas id="ortam-tuval" width="36" height="64"></canvas></div>
+
+<div class="app" id="app">
+  <aside class="yan cam" id="yan" aria-label="Kenar çubuğu">
+    <div class="marka">
+      <span class="marka-ikon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="3" width="11" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="2.6" fill="#ff5a4f"/></svg></span>
+      <div><div class="marka-ad">Stüdyo</div><div class="marka-alt">Kod ile render edilen filmler</div></div>
+    </div>
+    <button class="btn ana-btn" data-yeni style="margin:0 6px"><span data-ik="arti"></span>Yeni film</button>
+    <nav class="yan-grup" aria-labelledby="yg1">
+      <h2 id="yg1">Filmler</h2>
+      <a class="yan-oge" href="#/filmler" data-nav="filmler"><span data-ik="film"></span>Bütün filmler<span class="sayi" id="sayi-tum"></span></a>
+      <a class="yan-oge" href="#/bekleyen" data-nav="bekleyen"><span data-ik="saat"></span>Seni bekleyenler<span class="rozet" id="sayi-bekleyen" hidden></span></a>
+      <a class="yan-oge" href="#/arsiv" data-nav="arsiv"><span data-ik="arsiv"></span>Arşiv<span class="sayi" id="sayi-arsiv"></span></a>
+    </nav>
+    <nav class="yan-grup" aria-labelledby="yg2">
+      <h2 id="yg2">Kütüphane</h2>
+      <a class="yan-oge" href="#/kutuphane/gorsel" data-nav="kutuphane/gorsel"><span data-ik="gorsel"></span>Görüntü stilleri<span class="sayi" id="sayi-gorsel"></span></a>
+      <a class="yan-oge" href="#/kutuphane/animasyon" data-nav="kutuphane/animasyon"><span data-ik="hareket"></span>Hareket<span class="sayi" id="sayi-animasyon"></span></a>
+      <a class="yan-oge" href="#/kutuphane/ses" data-nav="kutuphane/ses"><span data-ik="ses"></span>Ses<span class="sayi" id="sayi-ses"></span></a>
+      <a class="yan-oge" href="#/kutuphane/model" data-nav="kutuphane/model"><span data-ik="katman"></span>3B modeller<span class="sayi" id="sayi-model"></span></a>
+      <a class="yan-oge" href="#/kutuphane/gecis" data-nav="kutuphane/gecis"><span data-ik="hareket"></span>Geçişler<span class="sayi" id="sayi-gecis"></span></a>
+      <a class="yan-oge" href="#/kutuphane/referans" data-nav="kutuphane/referans"><span data-ik="goz"></span>Referanslar</a>
+      <a class="yan-oge" href="#/turler" data-nav="turler"><span data-ik="profil"></span>Film türleri</a>
+    </nav>
+    <nav class="yan-grup" aria-labelledby="yg3">
+      <h2 id="yg3">Stüdyo</h2>
+      <a class="yan-oge" href="#/ogrenimler" data-nav="ogrenimler"><span data-ik="kitap"></span>Öğrenimler</a>
+      <a class="yan-oge" href="#/ayarlar" data-nav="ayarlar"><span data-ik="claude"></span>Ayarlar</a>
+      <a class="yan-oge" href="#/yardim" data-nav="yardim"><span data-ik="soru"></span>Nasıl çalışır?</a>
+    </nav>
+    <div class="yan-alt">
+      <div class="claude-durum" id="claude-durum"><span data-ik="claude"></span><div><b>Claude</b><span>yükleniyor…</span></div></div>
+      <p class="prototip-not">Panel yalnız bu bilgisayarda çalışır. Pencereyi kapatsan da işler sürer.</p>
+    </div>
+  </aside>
+
+  <main class="ana" id="ana">
+    <section class="gorunum" id="v-filmler" aria-label="Filmler" hidden></section>
+
+    <section class="gorunum akis" id="v-film" aria-label="Film çalışma alanı" hidden>
+      <div class="calisma">
+        <header class="arac cam">
+          <button class="ikon-btn" id="kenar-dugme" aria-label="Kenar çubuğunu göster ya da gizle"><span data-ik="kenar"></span></button>
+          <a class="ikon-btn" href="#/filmler" aria-label="Filmlere dön"><span data-ik="sol"></span></a>
+          <div class="arac-baslik"><b id="arac-baslik"></b><span id="arac-alt"></span></div>
+          <div class="bosluk"></div>
+          <nav class="yol" id="yol" aria-label="Filmin yolu"></nav>
+          <div class="bosluk"></div>
+          <div class="format-sec" id="format-sec" role="tablist" aria-label="Format"></div>
+          <div class="menu-kap">
+            <button class="ikon-btn" id="menu-dugme" aria-label="Diğer işlemler" aria-haspopup="true" aria-expanded="false"><span data-ik="nokta3"></span></button>
+            <div class="menu cam-guclu" id="arac-menu" hidden></div>
+          </div>
+        </header>
+
+        <div class="izleyici">
+          <div class="sahne">
+            <div class="cerceve" id="cerceve" role="button" tabindex="0" aria-label="Oynat ya da duraklat">
+              <video id="film" playsinline preload="auto"></video>
+              <img class="kare-yerine" id="kare-yerine" alt="" hidden>
+              <div class="platform" id="platform" aria-hidden="true"><i class="p-ust">Platform başlığı</i><i class="p-sag">Beğen · yorum · paylaş</i><i class="p-alt">Hesap adı, açıklama, ses</i><i class="p-sol"></i></div>
+              <div class="duraklatildi" aria-hidden="true"><span><span data-ik="oynat"></span></span></div>
+              <div class="cerceve-not" id="cerceve-not" hidden></div>
+            </div>
+          </div>
+          <div class="tasima cam">
+            <button class="ikon-btn" id="onceki" aria-label="Önceki vuruş"><span data-ik="geri"></span></button>
+            <button class="ana-oynat" id="oynat" aria-label="Oynat"><span data-ik="oynat"></span></button>
+            <button class="ikon-btn" id="sonraki" aria-label="Sonraki vuruş"><span data-ik="ileri"></span></button>
+            <span class="zaman-kodu" id="zk">00:00,00</span>
+            <span class="ayrac-dik"></span>
+            <span class="vurus-cip" id="vurus-cip"><i></i>—</span>
+            <span class="ayrac-dik"></span>
+            <button class="ikon-btn" id="platform-dugme" aria-pressed="false" aria-label="Platform arayüzünün kapladığı alanı göster" title="Platform arayüzünün kapladığı alan"><span data-ik="katman"></span></button>
+          </div>
+        </div>
+
+        <aside class="denetci cam" id="denetci" aria-label="Denetçi">
+          <header class="den-bas" id="den-bas"></header>
+          <div class="den-govde" id="den-govde"></div>
+          <form class="claude-alani" id="claude-form">
+            <div class="kuyruk" id="kuyruk"></div>
+            <div class="oneriler" id="oneriler"></div>
+            <label class="claude-giris" for="claude-metin"><span data-ik="claude"></span><input id="claude-metin" autocomplete="off" placeholder="Claude'a ne söyleyeyim?"><button class="gonder" type="submit" aria-label="Claude'a gönder"><span data-ik="yukari"></span></button></label>
+          </form>
+        </aside>
+
+        <section class="zaman cam" id="zaman" aria-label="Zaman çizelgesi">
+          <div class="zaman-bas">
+            <h3>Zaman çizelgesi</h3>
+            <div class="lejant" id="lejant"></div>
+            <div class="bosluk"></div>
+            <div class="yakinlik">
+              <button class="ikon-btn" id="z-uzak" aria-label="Uzaklaş"><span data-ik="eksi"></span></button>
+              <span id="z-oran">Sığdır</span>
+              <button class="ikon-btn" id="z-yakin" aria-label="Yakınlaş"><span data-ik="arti"></span></button>
+            </div>
+          </div>
+          <div class="zaman-govde" id="zaman-govde">
+            <div class="serit-adlar" aria-hidden="true"><span class="h-cetvel"></span><span class="h-vurus">Vuruş</span><span class="h-goruntu">Görüntü</span><span class="h-anlatim">Anlatım</span><span class="h-isaret">İşaret</span><span class="h-ses">Ses</span></div>
+            <div class="seritler" id="seritler"><div class="seritler-ic" id="seritler-ic"></div></div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="gorunum" id="v-sayfa" aria-label="Sayfa" hidden></section>
+  </main>
+</div>
+
+<div class="perde" id="perde" hidden><div class="levha cam-guclu" id="levha" role="dialog" aria-modal="true" aria-labelledby="levha-baslik"></div></div>
+<div class="buyut" id="buyut" hidden><img alt=""></div>
+<div class="etkinlik" id="etkinlik" aria-live="polite"></div>
+<div class="bildirim cam-guclu" id="bildirim" role="status" aria-live="polite"></div>
+
+<script src="/statik/cekirdek.js"></script>
+<script src="/statik/filmler.js"></script>
+<script src="/statik/calisma.js"></script>
+<script src="/statik/sayfalar.js"></script>
+<script>baslat();</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "maskot-yolculugu",
+  "baslik": "Maskot yolculuğu",
+  "ozet": "Bir maskot (kanatlı kalp, kâğıt uçak, kıvılcım) düğmeden doğar, eğri bir yolda dünyayı dolaşır, varır ve sahneyi dönüştürür. Çizgi film karakterleri, kelime kelime altyazı, marka kapanışı.",
+  "uygun": [
+    "kampanya",
+    "bağış",
+    "reklam",
+    "çocuk",
+    "marka hikâyesi"
+  ],
+  "kaynak": "katalog",
+  "kurallar": [
+    "Maskot filmin ana nesnesidir: her sahnede o vardır, sahneyi o başlatır ya da bitirir (zanaat §1)",
+    "Doğuş ezilme-uzamayla (ölçek 1,25 / 0,8 → 1, taşan yay); uçuş eğri yolda, yöne göre dönerek (±15°), arkasında iz",
+    "Kanat ya da uzuvlar sürekli hareketli (sonlu tekrar); varışta takip hareketiyle bir kez daha oynayıp durur",
+    "Geçişi maskot yapar: kameraya yaklaşır ve iris açar, pencereden içeri dalar, büyüyüp ekranı marka rengine boyar",
+    "Her sahnede ana olay + en az iki ikincil ayrıntı (uyuyan kedi, ipte çamaşır, kendi kendine yazılan tahta)",
+    "Karakterler tek bir yapım dilinden: aynı göz, yanak, gülüş; oranlar sabit; sevinçte kollar kalkar, gözler kırpar",
+    "Altyazı kelime kelime gelir (2–3 kare arayla), satır baştan yerleşik; ekranda bir anda tek cümle",
+    "Doruk bir kez: konfeti, kahkaha, sofra dolar; sonra 3–4 sn marka kartı (resmi logo, kampanya renginde CTA)"
+  ],
+  "kamera": "sahne içinde yavaş yaklaşma; geçişte maskotu izleyen dalış (scale 1 → 2,2, 0,8 sn, power2.inOut)",
+  "gecis": "maskot iris açar, pencereden dalar ya da ekranı boyar; her sahnede aynı türden geçiş, sebepsiz silme yok",
+  "tempo": {
+    "olay_aralik_sn": [
+      0.6,
+      1.6
+    ]
+  },
+  "yasak": [
+    "çöp adam",
+    "maskotsuz sahne",
+    "karakter oranlarının sahneden sahneye değişmesi",
+    "her geçişte konfeti"
+  ],
+  "teknik": {
+    "hyperframes": "MotionPathPlugin (autoRotate), back.out, yoyo; teknik örnek katalog/animasyon/hf/maskot-yolculugu/",
+    "remotion": "Bézier yol + yaylar (src/lib/anim.ts), SVG karakter bileşeni",
+    "blender": "yol eğrisi (Follow Path) + anahtar kare; çizgi film görünüşü için kit.boya(duz) + kit.kontur, ya da kil/plastik oyuncak karakter",
+    "uc": "basit geometriden karakter, malzeme.mat/plastik; yazı ve altyazı Remotion'da"
+  },
+  "gorunus_ipucu": "Görüntü stili seçilmediyse: yuvarlak formlu, düz renkli çizgi film (duz-illustrasyon)",
+  "ornekler": [
+    "twoclipping-747965",
+    "notdwd-998633"
+  ],
+  "demo": "katalog/animasyon/hf/maskot-yolculugu/index.html",
+  "ornek_motor": "hyperframes",
+  "demo_gorunus": [
+    "duz-illustrasyon",
+    "c"
+  ],
+  "ornek_film": "ihh_sofra"
+}

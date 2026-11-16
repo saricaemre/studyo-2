@@ -1,0 +1,98 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog görüntü stili: üç hazır varyasyon (a, b, c) = görünüş (renk, yazı, doku, ışık, malzeme dili). ./st yeni --gorsel ile videonun gorunus.json seçeneklerine kopyalanır; Claude videoya göre inceltebilir, seçimi kullanıcı yapar. Motoru ve hareketi SEÇMEZ: her motorda uygulanır. kurallar: stilin değişmezleri; teknik.<motor>: o motorda nasıl kurulur (uc = Three.js 3B katmanı). Blender'da renk alanındaki adlı renkler malzemelere gider (kit.renk), blender alanı ışık kararlarıdır; sahne kendi nesnelerine göre ad ekleyebilir. onizleme_motoru + onizleme_sahne: yalnız katalog önizlemesinin nerede ve hangi sahneyle çizildiği (./st katalog gorsel).",
+  "ad": "isvicre-izgara",
+  "baslik": "İsviçre ızgarası",
+  "ozet": "Görünür ızgara, temiz grotesk, ana renkler. Düzen ve netlik: veri, süreç, kurum.",
+  "uygun": [
+    "açıklayıcı",
+    "süreç",
+    "kurumsal"
+  ],
+  "kaynak": "katalog",
+  "varyasyonlar": {
+    "a": {
+      "ad": "Beyaz ve kırmızı",
+      "fikir": "Saf beyaz, siyah grotesk, tek kırmızı: klasik İsviçre afişi.",
+      "renk": {
+        "arka": "#FFFFFF",
+        "murekkep": "#000000",
+        "vurgu": "#E30613",
+        "soluk": "#5E5E5E"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Inter",
+          "agirlik": 700,
+          "aralik": -0.04
+        },
+        "govde": {
+          "aile": "Inter",
+          "agirlik": 400
+        }
+      },
+      "doku": "temiz",
+      "isik": "düz",
+      "hareket": "ızgaraya oturan kaymalar",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180
+      }
+    },
+    "b": {
+      "ad": "Gri ve mavi",
+      "fikir": "Açık gri zemin, mavi vurgu: sakin kurumsal düzen.",
+      "renk": {
+        "arka": "#F2F2F2",
+        "murekkep": "#111111",
+        "vurgu": "#0057B8",
+        "soluk": "#5C5C5C"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Instrument Sans",
+          "agirlik": 700,
+          "aralik": -0.03
+        },
+        "govde": {
+          "aile": "Instrument Sans",
+          "agirlik": 400
+        }
+      },
+      "doku": "temiz",
+      "isik": "düz",
+      "hareket": "modüler, eşit aralıklı",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180
+      }
+    },
+    "c": {
+      "ad": "Siyah ve sarı",
+      "fikir": "Siyah zemin, beyaz grotesk, sarı vurgu: gece versiyonu.",
+      "renk": {
+        "arka": "#111111",
+        "murekkep": "#FFFFFF",
+        "vurgu": "#FFCC00",
+        "soluk": "#9A9A9A"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Archivo",
+          "agirlik": 700,
+          "aralik": -0.03
+        },
+        "govde": {
+          "aile": "Archivo",
+          "agirlik": 400
+        }
+      },
+      "doku": "temiz",
+      "isik": "düz",
+      "hareket": "ızgara hücreleri sırayla dolar",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180
+      }
+    }
+  }
+}

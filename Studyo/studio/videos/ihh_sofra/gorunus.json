@@ -1,0 +1,37 @@
+{
+  "_doc": "Bu videonun görünüşü (yalnız bu video kullanır). Planda üç seçenek yazılır: a, b, c. Birbirlerinden en az üç eksende belirgin farklı olmalılar (zanaat.md §1c). ./st gorunus <id> üçünü kanca karesinde çizer, kontrastı ve önceki videolara benzerliği ölçer. Seçimi kullanıcı yapar (panel ya da ./st gorunus <id> sec <harf>). Alanlar: src/lib/gorunus.ts (Secenek). deneme_kare: deneme karesinin zamanı (sn) ya da işaret adı; boşsa 1,0 sn.",
+  "deneme_kare": null,
+  "secim": "a",
+  "secenekler": {
+    "a": {
+      "ad": "Sofra (mevcut)",
+      "fikir": "Gece odasından şafak göğüne, oradan şeftali yemekhaneye ve İHH yeşiline: sıcaklık ışıkla ve kalple taşınır.",
+      "renk": {
+        "arka": "#F6C995",
+        "murekkep": "#3B2416",
+        "vurgu": "#0F7A36",
+        "ikincil": "#FF4F6D",
+        "soluk": "#4F6357"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Fredoka",
+          "agirlik": 700
+        },
+        "govde": {
+          "aile": "Fredoka",
+          "agirlik": 500
+        }
+      },
+      "doku": "düz renk, puantiye duvar, kareli örtü",
+      "isik": "gece → şafak → gündüz → sıcak iç mekân",
+      "hareket": "oyuncu: taşan yay, ezilme-uzama, eğri yolda uçuş",
+      "bitis": {},
+      "yasak": [
+        "acındırma",
+        "rakam iddiası"
+      ]
+    }
+  },
+  "_ice_aktarim": "Görünüş stüdyo dışında (sofra) kullanıcıyla seçildi; sahne kodu kendi renklerini ve yazılarını taşır (Fredoka + Schoolbell). Bu kayıt ölçüm ve çeşitlilik denetimi içindir."
+}

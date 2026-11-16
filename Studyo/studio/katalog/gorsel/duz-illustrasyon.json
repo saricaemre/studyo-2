@@ -1,0 +1,130 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog görüntü stili: üç hazır varyasyon (a, b, c) = görünüş (renk, yazı, doku, ışık, malzeme dili). ./st yeni --gorsel ile videonun gorunus.json seçeneklerine kopyalanır; Claude videoya göre inceltebilir, seçimi kullanıcı yapar. Motoru ve hareketi SEÇMEZ: her motorda uygulanır. kurallar: stilin değişmezleri; teknik.<motor>: o motorda nasıl kurulur (uc = Three.js 3B katmanı). Blender'da renk alanındaki adlı renkler malzemelere gider (kit.renk), blender alanı ışık kararlarıdır; sahne kendi nesnelerine göre ad ekleyebilir. onizleme_motoru + onizleme_sahne: yalnız katalog önizlemesinin nerede ve hangi sahneyle çizildiği (./st katalog gorsel).",
+  "ad": "duz-illustrasyon",
+  "baslik": "Düz illüstrasyon dünyası",
+  "ozet": "Yuvarlak formlu, düz renkli çizgi film dünyası: ifadeli karakterler, maskot, ayrıntılı mekânlar. Kampanya, bağış, çocuk, eğitim, sıcak marka hikâyesi.",
+  "uygun": [
+    "kampanya",
+    "bağış",
+    "çocuk",
+    "eğitim",
+    "marka hikâyesi",
+    "masal"
+  ],
+  "kaynak": "katalog",
+  "kurallar": [
+    "Tek çizim dili: aynı kontur (ya da hiç), aynı köşe yuvarlaklığı, aynı tek ton koyu gölge (zanaat.md §2 F yolu)"
+  ],
+  "teknik": {
+    "hyperframes": "SVG + GSAP (örnek film ihh_sofra)",
+    "remotion": "SVG bileşenleri + anim.ts",
+    "blender": "kit.boya(duz=0,7–1) + kit.kontur, görünüşte \"bakis\": \"Standard\" (çizgi film boyası, 3B)",
+    "uc": "Sahne3B tonlama=\"yok\" + malzeme.mat, ortam yok"
+  },
+  "ornek_film": "ihh_sofra",
+  "varyasyonlar": {
+    "a": {
+      "ad": "Gece → şafak",
+      "fikir": "Lacivert gece göğünden pembe şafağa: sıcaklık ışıkla gelir, kahraman ışığı taşır.",
+      "renk": {
+        "arka": "#1B2350",
+        "murekkep": "#FFF6E8",
+        "vurgu": "#FF7A93",
+        "ikincil": "#FFD25A",
+        "soluk": "#B8C0E8"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Fredoka",
+          "agirlik": 700,
+          "aralik": -0.01
+        },
+        "govde": {
+          "aile": "Nunito",
+          "agirlik": 600
+        },
+        "aksan": {
+          "aile": "Patrick Hand",
+          "agirlik": 400
+        }
+      },
+      "doku": "düz renk, yumuşak radyal gökyüzü, ince nokta deseni",
+      "isik": "gece mavisinden şafak pembesine geçen ortam ışığı",
+      "hareket": "oyuncu: taşan yay (back.out 1.6), ezilme-uzama, kanat çırpma, eğri yolda uçuş",
+      "bitis": {},
+      "yasak": [
+        "kalın siyah kontur",
+        "fotogerçekçi gölge",
+        "oranları sahneden sahneye değişen karakter"
+      ]
+    },
+    "b": {
+      "ad": "Şeftali oda",
+      "fikir": "Sıcak şeftali iç mekân, mercan vurgu: ev, sofra, yakınlık.",
+      "renk": {
+        "arka": "#FFE9CF",
+        "murekkep": "#3B2416",
+        "vurgu": "#C8402C",
+        "ikincil": "#2A8C82",
+        "soluk": "#8A6A55"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Baloo Two",
+          "agirlik": 800,
+          "aralik": -0.01
+        },
+        "govde": {
+          "aile": "Quicksand",
+          "agirlik": 600
+        },
+        "aksan": {
+          "aile": "Kalam",
+          "agirlik": 700
+        }
+      },
+      "doku": "düz renk, duvarda puantiye, kareli masa örtüsü",
+      "isik": "sıcak iç mekân, sarkıt lambalar",
+      "hareket": "oyuncu ve tok: zıplayarak gelen nesneler, sırayla açılan ayrıntılar (stagger 3 kare)",
+      "bitis": {},
+      "yasak": [
+        "soğuk gri",
+        "ince ve keskin geometrik çizgi"
+      ]
+    },
+    "c": {
+      "ad": "Çayır gündüz",
+      "fikir": "Açık gökyüzü, yeşil çayır, güneş sarısı: dış dünya, umut, yolculuk.",
+      "renk": {
+        "arka": "#DDF3FF",
+        "murekkep": "#173B27",
+        "vurgu": "#14803A",
+        "ikincil": "#FFB627",
+        "soluk": "#5D7A68"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Grandstander",
+          "agirlik": 800,
+          "aralik": -0.01
+        },
+        "govde": {
+          "aile": "Nunito",
+          "agirlik": 700
+        },
+        "aksan": {
+          "aile": "Pangolin",
+          "agirlik": 400
+        }
+      },
+      "doku": "düz renk, yumuşak bulutlar, tepelerde iki ton yeşil",
+      "isik": "parlak gündüz, güneş sol üstte",
+      "hareket": "akışkan ve neşeli: süzülen bulutlar, sallanan ağaç, yaylanan karakterler",
+      "bitis": {},
+      "yasak": [
+        "neon",
+        "koyu gölge"
+      ]
+    }
+  }
+}

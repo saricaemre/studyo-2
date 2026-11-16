@@ -1,0 +1,40 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "kagit-kolaj",
+  "baslik": "Kesik kolaj (stop-motion)",
+  "ozet": "Kesilmiş parçalar stop-motion gibi ikilerde kayar, döner, üst üste biner; her parçanın gölgesi katmanları ayırır. Parçaların malzemesini görüntü stili belirler: kâğıt, fotoğraf, kumaş, düz renk.",
+  "uygun": [
+    "masal",
+    "eğitim",
+    "samimi anlatı"
+  ],
+  "kaynak": "katalog",
+  "kurallar": [
+    "Ana pozlar ikilerde (12 fps) tutulur; kamera akıcı kalabilir",
+    "Her parçanın gölgesi var; katman derinliği gölgeyle okunur",
+    "Parça kesilmiş gibi davranır: kayarak girer, hafif dönerek yerleşir; dokusu kare başına sabit"
+  ],
+  "kamera": "yatay kaydırma, hafif paralaks",
+  "gecis": "yeni kâğıt eskisinin üstüne düşer ya da sayfa yırtılır",
+  "tempo": {
+    "olay_aralik_sn": [
+      1.2,
+      2.5
+    ]
+  },
+  "yasak": [
+    "her karede titreyen doku",
+    "gölgesiz parça"
+  ],
+  "teknik": {
+    "remotion": "kare = floor(t·12)/12 tutma, drop-shadow",
+    "hyperframes": "steps() yerine GSAP ease + 12 fps tutma (kare yuvarlama)",
+    "blender": "düzlem parçalar, Constant ara değer (ikilerde), yumuşak gölgeli güneş"
+  },
+  "gorunus_ipucu": "Görüntü stili seçilmediyse: gerçek kâğıt lifi ve yırtık kenar (tohumlu), beyaz kesik kenarlı çıkartmalar; düz vektör ikon ve kusursuz düz kenardan kaçın",
+  "ornekler": [
+    "superalesha-970412",
+    "twoclipping-551116"
+  ],
+  "demo": "src/katalog/animasyon/ornekler.tsx#kagit-kolaj"
+}

@@ -1,0 +1,41 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "tek-nesne",
+  "baslik": "Tek nesne dönüşümü",
+  "ozet": "Tek bir biçim hiç kesilmeden sahneden sahneye dönüşür: daire, hap, kart, çubuk. Film tek düşünce gibi akar.",
+  "uygun": [
+    "ürün tanıtımı",
+    "süreç",
+    "logo"
+  ],
+  "kaynak": "katalog",
+  "kurallar": [
+    "Hiç kesme yok: her durum aynı öğenin boyut, köşe ve renk değişimi",
+    "Hedefi değişen her değer yay toplamıyla",
+    "İçerik kap dönüşmeye başladıktan sonra gelir, bir sonraki dönüşümden önce gider",
+    "Son kare ilk kareye eşit: döngü"
+  ],
+  "kamera": "her durum kadrajı doldurur; kamera biçimle aynı eğriye biner",
+  "gecis": "nesnenin kendisi geçiştir",
+  "tempo": {
+    "olay_aralik_sn": [
+      0.6,
+      1.2
+    ]
+  },
+  "yasak": [
+    "siyaha geçip yeni sahne",
+    "çapraz geçiş"
+  ],
+  "teknik": {
+    "remotion": "yaylar (src/lib/anim.ts)",
+    "hyperframes": "tek zaman çizelgesinde ardışık tween'ler (overwrite yok)",
+    "blender": "tek nesne, şekil anahtarları (shape key) + anahtar kare",
+    "uc": "tek mesh, ölçek/dönüş t'den"
+  },
+  "ornekler": [
+    "verbove-268381",
+    "twoclipping-402193"
+  ],
+  "demo": "src/katalog/animasyon/ornekler.tsx#tek-nesne"
+}

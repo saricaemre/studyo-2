@@ -1,0 +1,39 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog ses stili: müzik (iki kaynak: \"kod\" = pipeline/muzik_stiller.py ön ayarı, \"ace\" = ACE-Step 1.5 yerel üretim), efekt ailesi (pipeline/sfx.py), anlatıcı ayarı ve miks. ./st yeni --ses ile script.json'a işlenir.",
+  "ad": "haber-bulteni",
+  "baslik": "Haber bülteni",
+  "ozet": "Tıklayan saat perküsyonu, kesik yaylılar, sentez bas. Ciddi, acil, net anlatım.",
+  "uygun": [
+    "haber",
+    "veri",
+    "duyuru"
+  ],
+  "kaynak": "katalog",
+  "muzik": {
+    "kod": {
+      "stil": "bulten",
+      "bpm": 116,
+      "ton": "E"
+    },
+    "ace": {
+      "caption": "news broadcast theme, urgent ticking percussion, staccato strings, synth bass, serious and driving, instrumental",
+      "bpm": 116,
+      "ton": "E minor",
+      "tohum": 42
+    }
+  },
+  "efekt": [
+    "wood_tok",
+    "whoosh",
+    "stamp"
+  ],
+  "anlatim": {
+    "rate": "+6%",
+    "pitch": "+0Hz"
+  },
+  "miks": {
+    "muzik_db": -17,
+    "duck_db": -10,
+    "sessizlik": "yok"
+  }
+}

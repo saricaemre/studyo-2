@@ -1,0 +1,23 @@
+{
+  "ad": "reklam-kisa",
+  "aciklama": "Kısa reklam / kampanya filmi (sosyal medya, dijital reklam, web, etkinlik ekranı): anlatıcısız ya da kısa anlatımlı, kelime kelime altyazı, müzik ve efekt yoğun, sonda marka kartı ve harekete çağrı",
+  "formatlar": ["16x9", "9x16", "1x1"],
+  "anlatim": false,
+  "fps": 30,
+  "sure": [6, 35],
+  "kanca_sn": 2.0,
+  "olay_bosluk_sn": 1.6,
+  "senkron_kare": 2,
+  "lufs": [-15, -13],
+  "tp": -1.0,
+  "vuruslar": ["Kanca", "Yolculuk", "Varış", "Doruk", "Marka"],
+  "dongu": false,
+  "kaynak_zorunlu": false,
+  "varlik_zorunlu": true,
+  "goz": [
+    "İlk 2 sn'de ana nesne ya da kahraman ekranda ve hareket ediyor",
+    "Sesi kapalı izlendiğinde de anlaşılıyor (altyazı hikâyeyi taşıyor)",
+    "Marka kartında resmi logo, harekete çağrı ve adres en az 2 sn birlikte ekranda",
+    "Rakam ve iddia yalnız kaynaklı"
+  ]
+}

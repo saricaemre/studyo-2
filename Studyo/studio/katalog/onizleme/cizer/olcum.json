@@ -1,0 +1,10 @@
+{
+ "sahne": "katalog/motor/blender/sahne.py",
+ "kare": 45,
+ "kalite": "tam",
+ "sn_kare": {
+  "cycles": 9.28,
+  "eevee": 1.95
+ },
+ "tarih": "2026-10-26"
+}

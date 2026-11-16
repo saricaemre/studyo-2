@@ -1,0 +1,52 @@
+{
+  "_doc": "Seri görünüşü (paylaşılan): ./st yeni <id> --seri harita-masasi. Eski videolar src/stiller/harita-masasi/tokens.ts'i kullanır.",
+  "secim": "harita-masasi",
+  "secenekler": {
+    "harita-masasi": {
+      "ad": "Harita Masası",
+      "fikir": "Mum ışığında ahşap masa üstünde parşömen harita: tarih bir masa başı soruşturmasıdır.",
+      "renk": {
+        "arka": "#1A1009",
+        "murekkep": "#2B2118",
+        "vurgu": "#A63A2B",
+        "ikincil": "#2E4A7D",
+        "soluk": "#8A7A62",
+        "kagit": "#EFE3C8"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Cormorant Garamond",
+          "agirlik": 700
+        },
+        "govde": {
+          "aile": "Lora",
+          "agirlik": 600
+        },
+        "aksan": {
+          "aile": "Cormorant Garamond",
+          "agirlik": 600,
+          "italik": true
+        }
+      },
+      "doku": "parşömen, ahşap, toprak, gren (overlay %9)",
+      "isik": "mum ışığı, vinyet",
+      "hareket": "haritaya dalış, piyon toku, mühür darbesi",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "isik": 0.15,
+        "isik_esik": 0.78,
+        "isik_yaricap": 14,
+        "vinyet": 0.3,
+        "siyah": "#16110C",
+        "gren": 0.09,
+        "gren_karisim": "overlay"
+      },
+      "yasak": [
+        "modern arayüz öğesi",
+        "neon",
+        "düz vektör ikon"
+      ]
+    }
+  }
+}

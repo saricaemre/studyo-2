@@ -1,0 +1,47 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "urun-3b",
+  "baslik": "3B ürün / nesne",
+  "ozet": "Bir nesne (telefon, kutu, şişe, logo) stüdyo ışığında yükselir ve döner tabla gibi çevrilir; ışık üstünden geçer ve yüzeyde parıltı kayar. Adı ya da tek cümlesi altta.",
+  "uygun": [
+    "ürün tanıtımı",
+    "uygulama",
+    "marka",
+    "teaser",
+    "lansman"
+  ],
+  "kaynak": "katalog",
+  "uc": true,
+  "kurallar": [
+    "Gerçek ürün varsa onun modeli ya da ekran görüntüsü kullanılır; ekran içeriği uydurulmaz, yoksa yazısız bloklar",
+    "Işık ürünün üstünden yavaşça geçer: yüzeyde parıltı kayar; yumuşak gölge ürünü zemine oturtur",
+    "Dönüş 3 sn'de en çok çeyrek-yarım tur; ürün yükselirken yavaşlar ve yerleşir",
+    "Kadraj nesneyi doldurur; zemin tek ton değil, gölge onu taşır",
+    "Patlatılmış görünüm (parçalar ayrılır, adlarıyla) anlatım için güçlü: parçalar aynı eksende, sırayla"
+  ],
+  "kamera": "hafif yukarıdan, ürün yükseldikçe göz hizasına iner; dolly 3 sn'de nesne boyunun %10–15'i",
+  "gecis": "ürün döner ve yeni yüzü sonraki sahneye bağlanır; ya da ışık söner, yenisi yanar",
+  "tempo": {
+    "olay_aralik_sn": [
+      0.8,
+      1.6
+    ]
+  },
+  "yasak": [
+    "boşlukta duran ışıksız nesne",
+    "sürekli dönen ürün",
+    "plastik gibi duran cam",
+    "uydurma ekran içeriği"
+  ],
+  "teknik": {
+    "uc": "Sahne3B + Isik studyo golge + malzeme.plastik/metal/cam (ortam oda açık: cam ve metal onsuz siyah), useSigdir; teknik örnek src/katalog/animasyon/uc.tsx#urun-3b",
+    "blender": "kit.plastik / kit.metal / kit.cam + gerçek alan derinliği; ürün modeli varlık olarak (kit.varlik)"
+  },
+  "gorunus_ipucu": "Görüntü stili seçilmediyse: açık, yumuşak stüdyo zemini; ürünün kendi renkleri",
+  "ornekler": [
+    "daniel-haida-636937",
+    "aichrislee-408244"
+  ],
+  "demo": "src/katalog/animasyon/uc.tsx#urun-3b",
+  "ornek_hf": "hf/uc_deneme_hf/index.html"
+}

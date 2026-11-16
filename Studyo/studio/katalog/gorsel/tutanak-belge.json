@@ -1,0 +1,120 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog görüntü stili: üç hazır varyasyon (a, b, c) = görünüş (renk, yazı, doku, ışık, malzeme dili). ./st yeni --gorsel ile videonun gorunus.json seçeneklerine kopyalanır; Claude videoya göre inceltebilir, seçimi kullanıcı yapar. Motoru ve hareketi SEÇMEZ: her motorda uygulanır. kurallar: stilin değişmezleri; teknik.<motor>: o motorda nasıl kurulur (uc = Three.js 3B katmanı). Blender'da renk alanındaki adlı renkler malzemelere gider (kit.renk), blender alanı ışık kararlarıdır; sahne kendi nesnelerine göre ad ekleyebilir. onizleme_motoru + onizleme_sahne: yalnız katalog önizlemesinin nerede ve hangi sahneyle çizildiği (./st katalog gorsel).",
+  "ad": "tutanak-belge",
+  "baslik": "Tutanak / belge",
+  "ozet": "Daktilo harfi, mühür, fotokopi dokusu. Soğuk resmî dil; alaycı ya da soruşturan anlatı.",
+  "uygun": [
+    "kamu spotu",
+    "soruşturma",
+    "tarih belgesi"
+  ],
+  "kaynak": "katalog",
+  "varyasyonlar": {
+    "a": {
+      "ad": "Kaza tutanağı",
+      "fikir": "Resmî beyaz kâğıt ve kırmızı mühür.",
+      "renk": {
+        "arka": "#FAFAF7",
+        "murekkep": "#1B1B1B",
+        "vurgu": "#C8102E",
+        "soluk": "#5F5F5A"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "IBM Plex Mono",
+          "agirlik": 600,
+          "aralik": -0.02
+        },
+        "govde": {
+          "aile": "IBM Plex Mono",
+          "agirlik": 400
+        },
+        "aksan": {
+          "aile": "Newsreader",
+          "agirlik": 500,
+          "italik": true
+        }
+      },
+      "doku": "fotokopi, hafif gren",
+      "isik": "floresan, düz",
+      "hareket": "daktiloyla yazılır, mühür vurur",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "vinyet": 0.08,
+        "gren": 0.05,
+        "gren_karisim": "multiply"
+      }
+    },
+    "b": {
+      "ad": "Manila dosya",
+      "fikir": "Sararmış dosya kâğıdı ve mavi ıslak mürekkep mührü.",
+      "renk": {
+        "arka": "#F3EEDC",
+        "murekkep": "#232019",
+        "vurgu": "#1C3F94",
+        "soluk": "#625B4C"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Space Mono",
+          "agirlik": 700
+        },
+        "govde": {
+          "aile": "Space Mono",
+          "agirlik": 400
+        },
+        "aksan": {
+          "aile": "Libre Baskerville",
+          "agirlik": 400,
+          "italik": true
+        }
+      },
+      "doku": "dosya kâğıdı, ataş gölgesi",
+      "isik": "masa lambası",
+      "hareket": "kâğıt kayar, damga iner",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "vinyet": 0.16,
+        "gren": 0.07,
+        "gren_karisim": "multiply"
+      }
+    },
+    "c": {
+      "ad": "Gri fotokopi",
+      "fikir": "Kontrastı yüksek gri fotokopi ve yeşil onay mührü: arşivden çıkarılmış kanıt.",
+      "renk": {
+        "arka": "#E9ECEF",
+        "murekkep": "#141414",
+        "vurgu": "#1E6B3A",
+        "soluk": "#585C61"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "DM Mono",
+          "agirlik": 500
+        },
+        "govde": {
+          "aile": "DM Mono",
+          "agirlik": 400
+        },
+        "aksan": {
+          "aile": "EB Garamond",
+          "agirlik": 500,
+          "italik": true
+        }
+      },
+      "doku": "fotokopi tozu",
+      "isik": "düz",
+      "hareket": "tarama çizgisiyle belirir",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "vinyet": 0.1,
+        "gren": 0.09,
+        "gren_karisim": "multiply"
+      }
+    }
+  }
+}

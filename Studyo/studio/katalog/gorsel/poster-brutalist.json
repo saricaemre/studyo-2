@@ -1,0 +1,104 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog görüntü stili: üç hazır varyasyon (a, b, c) = görünüş (renk, yazı, doku, ışık, malzeme dili). ./st yeni --gorsel ile videonun gorunus.json seçeneklerine kopyalanır; Claude videoya göre inceltebilir, seçimi kullanıcı yapar. Motoru ve hareketi SEÇMEZ: her motorda uygulanır. kurallar: stilin değişmezleri; teknik.<motor>: o motorda nasıl kurulur (uc = Three.js 3B katmanı). Blender'da renk alanındaki adlı renkler malzemelere gider (kit.renk), blender alanı ışık kararlarıdır; sahne kendi nesnelerine göre ad ekleyebilir. onizleme_motoru + onizleme_sahne: yalnız katalog önizlemesinin nerede ve hangi sahneyle çizildiği (./st katalog gorsel).",
+  "ad": "poster-brutalist",
+  "baslik": "Poster / brütalist",
+  "ozet": "Dev ve kalın yazı, düz yoğun renk, sert kontrast. Bağırarak uyarır, dikkat çeker.",
+  "uygun": [
+    "kamu spotu",
+    "tanıtım",
+    "duyuru"
+  ],
+  "kaynak": "katalog",
+  "varyasyonlar": {
+    "a": {
+      "ad": "Uyarı levhası",
+      "fikir": "Trafik levhası sarısı ve kalın harf: hiç yumuşamaz.",
+      "renk": {
+        "arka": "#FFD23F",
+        "murekkep": "#111111",
+        "vurgu": "#D0021B",
+        "soluk": "#4A4030"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Unbounded",
+          "agirlik": 800,
+          "aralik": -0.03
+        },
+        "govde": {
+          "aile": "Manrope",
+          "agirlik": 600
+        }
+      },
+      "doku": "temiz, düz renk",
+      "isik": "yok",
+      "hareket": "sert, vuruşta oturan, taşmasız",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "gren": 0.04,
+        "gren_karisim": "multiply"
+      }
+    },
+    "b": {
+      "ad": "Kobalt poster",
+      "fikir": "Kobalt zemin, beyaz dev harf, pembe vurgu: konser afişi enerjisi.",
+      "renk": {
+        "arka": "#2B3BFF",
+        "murekkep": "#FFFFFF",
+        "vurgu": "#FF9BD5",
+        "soluk": "#C9CEFF"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Archivo Black",
+          "agirlik": 400,
+          "aralik": -0.02
+        },
+        "govde": {
+          "aile": "Archivo",
+          "agirlik": 500
+        }
+      },
+      "doku": "ofset baskı, hafif gren",
+      "isik": "yok",
+      "hareket": "maskeden yükselen harfler, sürekli dönen desen",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "gren": 0.05,
+        "gren_karisim": "overlay"
+      }
+    },
+    "c": {
+      "ad": "Krem ve kırmızı",
+      "fikir": "Krem kâğıtta siyah dar harf ve kırmızı blok: propaganda afişi.",
+      "renk": {
+        "arka": "#E8E2D4",
+        "murekkep": "#0E0F1F",
+        "vurgu": "#C4001F",
+        "soluk": "#545049"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Anton",
+          "agirlik": 400,
+          "aralik": 0.01
+        },
+        "govde": {
+          "aile": "Barlow Condensed",
+          "agirlik": 500
+        }
+      },
+      "doku": "serigrafi lekesi",
+      "isik": "yok",
+      "hareket": "blok blok kurulur",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "gren": 0.06,
+        "gren_karisim": "multiply"
+      }
+    }
+  }
+}

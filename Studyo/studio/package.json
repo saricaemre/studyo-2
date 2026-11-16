@@ -1,0 +1,30 @@
+{
+  "name": "tarih-studio",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render"
+  },
+  "dependencies": {
+    "@react-three/fiber": "8.18.0",
+    "@remotion/cli": "4.0.537",
+    "@remotion/google-fonts": "4.0.537",
+    "@remotion/motion-blur": "4.0.537",
+    "@remotion/three": "4.0.537",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.537",
+    "three": "0.181.2",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/three": "0.181.0",
+    "@types/topojson-client": "3.1.5",
+    "gl-transitions": "3.0.0",
+    "gsap": "3.14.2",
+    "typescript": "5.6.3"
+  }
+}

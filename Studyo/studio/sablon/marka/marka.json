@@ -1,0 +1,19 @@
+{
+  "_doc": "Marka kiti şablonu: bu klasörü markalar/<ad>/ olarak kopyala, değerleri kurumun resmi kaynağından doldur (uydurma yok), logoları logolar/ altına koy. ./st yeni … --marka <ad> ile kullanılır. Değerleri değiştirmek kullanıcı kararıdır.",
+  "ad": "[Kurumun tam adı]",
+  "ad_en": "[İngilizce adı, varsa]",
+  "kisa": "[Kısa ad]",
+  "kaynak": "[Değerlerin alındığı resmi kaynak ve tarih]",
+  "renk": {
+    "ana": "#000000",
+    "ikincil": "#000000",
+    "murekkep": "#333333",
+    "zemin": "#FFFFFF"
+  },
+  "yazi": {"ana": "[Kurumun yazı tipi]", "yedek": "[src/lib/fontlar.ts listesinden en yakını]", "aralik_em": 0},
+  "logolar": {
+    "yatay": "logolar/[dosya].svg",
+    "yatay-beyaz": "logolar/[dosya].svg"
+  },
+  "adres": {"tr": "[site]", "en": "[site]"}
+}

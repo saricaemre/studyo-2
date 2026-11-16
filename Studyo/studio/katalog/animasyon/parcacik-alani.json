@@ -1,0 +1,46 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "parcacik-alani",
+  "baslik": "Parçacık / shader alanı",
+  "ozet": "Akan bir gölgelendirici alanı (mürekkep, dalga ya da ışık halkası) ve içinde süzülen parçacıklar; büyük yazı alanın içinden belirir. Arka planı canlı tutan, yazıyı taşıyan bir zemin.",
+  "uygun": [
+    "açılış",
+    "başlık kartı",
+    "müzik",
+    "marka",
+    "geçiş"
+  ],
+  "kaynak": "katalog",
+  "uc": true,
+  "kurallar": [
+    "Alanın renkleri filmin görünüşünden gelir: zemin, ara ton ve vurgu",
+    "Yazı alanın üstünde ve okunur: alan yazının arkasında sakin, kenarlarda hareketli",
+    "Parçacıklar tohumlu; konum ve kırpışma zamanın fonksiyonu: kare atlanabilir",
+    "Hız müzikle: işaretlere ya da vuruşa bağlı yoğunlaşma; sürekli aynı hız tembeldir"
+  ],
+  "kamera": "neredeyse sabit; parçacık katmanında yavaş dolly derinlik verir",
+  "gecis": "alanın rengi ya da biçimi bir sonrakine akar; parçacıklar dağılıp yeni biçimi kurar",
+  "tempo": {
+    "olay_aralik_sn": [
+      1.0,
+      2.0
+    ]
+  },
+  "yasak": [
+    "yazıyı yutan yoğun desen",
+    "her yerde aynı parlaklık",
+    "tohumsuz rastgelelik",
+    "beyaza patlayan parlama"
+  ],
+  "teknik": {
+    "uc": "ShaderAlani (akis · dalga · halka ya da kendi GLSL main()'in; kosinüsü pow'dan önce kıstır), renkler=[arka, ara ton, vurgu], tonlama yok; Parcaciklar tohum; teknik örnek src/katalog/animasyon/uc.tsx#parcacik-alani",
+    "blender": "tohumlu, pişirilmiş parçacık sistemi ya da geometri düğümleri; ışık yayan küçük örnekler",
+    "hyperframes": "uc.js (aynı alanlar) ya da tohumlu canvas 2D"
+  },
+  "ornekler": [
+    "pluvio9yte-662953",
+    "op7418-814408"
+  ],
+  "demo": "src/katalog/animasyon/uc.tsx#parcacik-alani",
+  "ornek_hf": "hf/uc_deneme_hf/index.html"
+}

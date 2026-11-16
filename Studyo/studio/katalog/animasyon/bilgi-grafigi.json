@@ -1,0 +1,43 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "bilgi-grafigi",
+  "baslik": "Bilgi grafiği / veri",
+  "ozet": "Eksenler çizilir, sütun ve çizgiler kendini kurar, sayaçlar akar, not çizgisi tek bir değere uzanır.",
+  "uygun": [
+    "veri hikâyesi",
+    "açıklayıcı",
+    "haber"
+  ],
+  "kaynak": "katalog",
+  "kurallar": [
+    "Mekanizma kanıtı gösterir: grafik açıklamayı süslemez, onu ispatlar",
+    "Sayaçlar tablo rakamı (tabular-nums), sabit birim etiketi; filmin genel saatinden akar",
+    "Bir karede tek vurgu serisi; öteki seriler soluk",
+    "Önce eksen, sonra veri, sonra not: üç adım",
+    "Uydurma veri yok: her rakam kaynaklar.md'de"
+  ],
+  "kamera": "grafiğe yaklaşır, not çizgisini izler",
+  "gecis": "grafik çizgisi bir sonraki sahnenin kenarına dönüşür",
+  "tempo": {
+    "olay_aralik_sn": [
+      1.5,
+      3.0
+    ]
+  },
+  "yasak": [
+    "dalgalı \"solucan\" grafik çizgisi",
+    "sahte gösterge paneli",
+    "3B pasta grafik"
+  ],
+  "teknik": {
+    "remotion": "sayaç tabular-nums, eksen → veri → not sırası bileşenle",
+    "uc": "derinlikli grafik: Sahne3B içinde çubuk/yüzey, yazı üstte Remotion'da",
+    "blender": "veri sahne.py'de dosyadan okunur (varlık), etiketler üst katmanda"
+  },
+  "ornekler": [
+    "gdgtify-393073",
+    "everestchris6-399895",
+    "howdevelop-733090"
+  ],
+  "demo": "src/katalog/animasyon/ornekler.tsx#bilgi-grafigi"
+}

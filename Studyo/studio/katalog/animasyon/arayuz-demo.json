@@ -1,0 +1,42 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "arayuz-demo",
+  "baslik": "Arayüz / ürün demosu",
+  "ozet": "İmleç gerçek tıklar, yazı harf harf yazılır, sonuçlar kayar: ürün kendini kullanarak anlatır.",
+  "uygun": [
+    "ürün tanıtımı",
+    "uygulama",
+    "eğitim"
+  ],
+  "kaynak": "katalog",
+  "kurallar": [
+    "Gerçek arayüz, gerçek veri; yer tutucu yok (varliklar.md)",
+    "İmleç yumuşak eğriyle gider, tıklamada dalga",
+    "Yazı zamanın fonksiyonu olarak harf harf belirir; imleç yalnız boştayken yanıp söner",
+    "Her durum kadrajı doldurur (kamera yakınlaşır)"
+  ],
+  "kamera": "duruma yakınlaşır, imleci izler",
+  "gecis": "bir arayüz durumu ötekine dönüşür",
+  "tempo": {
+    "olay_aralik_sn": [
+      0.8,
+      1.6
+    ]
+  },
+  "yasak": [
+    "sahte arayüz",
+    "uydurma kullanıcı ya da metrik",
+    "arayüzde gradyan"
+  ],
+  "teknik": {
+    "remotion": "imleç Bézier yolda (src/lib/anim.ts); yazı gösterilen = floor(p × uzunluk)",
+    "hyperframes": "imleç MotionPathPlugin; yazı TextPlugin ya da maske",
+    "blender": "arayüz ekran görüntüsü varlık olarak bir düzleme doku; imleç ayrı düzlem"
+  },
+  "ornekler": [
+    "verbove-268381",
+    "twoclipping-747965",
+    "daniel-haida-636937"
+  ],
+  "demo": "src/katalog/animasyon/ornekler.tsx#arayuz-demo"
+}

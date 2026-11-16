@@ -1,0 +1,6 @@
+{
+  "_doc": "Bu videonun görünüşü (yalnız bu video kullanır). Planda üç seçenek yazılır: a, b, c. Birbirlerinden en az üç eksende belirgin farklı olmalılar (zanaat.md §1c). ./st gorunus <id> üçünü kanca karesinde çizer, kontrastı ve önceki videolara benzerliği ölçer. Seçimi kullanıcı yapar (panel ya da ./st gorunus <id> sec <harf>). Alanlar: src/lib/gorunus.ts (Secenek). deneme_kare: deneme karesinin zamanı (sn) ya da işaret adı; boşsa 1,0 sn. katalog_stili: 'aynen' uygulanan görüntü kartı (seçenekler onun varyasyonları); esin_stilleri: esin kartları (ham malzeme: Claude karıştırır, değiştirir, aşar; seçenekleri kendisi yazar). yol_modu: true ise planda üç yol vardır: her seçenek görünüş alanlarının yanında bir 'yol' bloğu taşır (ad, tek_cumle, yontem, kural, kanca, olaganustu_an, insan_yolu, neden_akilda_kalir, risk, uretim, kredi_tahmini); kanca karesi seçenek harfine göre dallanır (Remotion useSecenek(), HyperFrames ST.secenek / html[data-secenek], Blender ST.secenek); üç yolun yöntemi farklıdır. Seçilen yol planı belirler (brief → Yönetmenlik).",
+  "deneme_kare": null,
+  "secim": null,
+  "secenekler": {}
+}

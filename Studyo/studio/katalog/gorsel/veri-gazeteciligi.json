@@ -1,0 +1,118 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog görüntü stili: üç hazır varyasyon (a, b, c) = görünüş (renk, yazı, doku, ışık, malzeme dili). ./st yeni --gorsel ile videonun gorunus.json seçeneklerine kopyalanır; Claude videoya göre inceltebilir, seçimi kullanıcı yapar. Motoru ve hareketi SEÇMEZ: her motorda uygulanır. kurallar: stilin değişmezleri; teknik.<motor>: o motorda nasıl kurulur (uc = Three.js 3B katmanı). Blender'da renk alanındaki adlı renkler malzemelere gider (kit.renk), blender alanı ışık kararlarıdır; sahne kendi nesnelerine göre ad ekleyebilir. onizleme_motoru + onizleme_sahne: yalnız katalog önizlemesinin nerede ve hangi sahneyle çizildiği (./st katalog gorsel).",
+  "ad": "veri-gazeteciligi",
+  "baslik": "Veri gazeteciliği",
+  "ozet": "Temiz zemin, kendini çizen grafikler, mono etiketler. Rakamla anlatılan hikâye.",
+  "uygun": [
+    "veri hikâyesi",
+    "açıklayıcı",
+    "haber"
+  ],
+  "kaynak": "katalog",
+  "varyasyonlar": {
+    "a": {
+      "ad": "Açık veri",
+      "fikir": "Beyaza yakın zemin, tek turuncu seri, mono etiket.",
+      "renk": {
+        "arka": "#FBFAF7",
+        "murekkep": "#1D1D1F",
+        "vurgu": "#D2481F",
+        "ikincil": "#3B6FD8",
+        "soluk": "#64646A"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Inter",
+          "agirlik": 700,
+          "aralik": -0.03
+        },
+        "govde": {
+          "aile": "Inter",
+          "agirlik": 400
+        },
+        "aksan": {
+          "aile": "JetBrains Mono",
+          "agirlik": 500
+        }
+      },
+      "doku": "temiz",
+      "isik": "düz",
+      "hareket": "grafik kendini çizer, sayaç akar",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180
+      }
+    },
+    "b": {
+      "ad": "Lacivert veri",
+      "fikir": "Lacivert zemin, nane yeşili seri: gece masası.",
+      "renk": {
+        "arka": "#0F1724",
+        "murekkep": "#E6EDF5",
+        "vurgu": "#3DDC97",
+        "ikincil": "#FFB547",
+        "soluk": "#8B98A8"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Sora",
+          "agirlik": 700,
+          "aralik": -0.02
+        },
+        "govde": {
+          "aile": "Inter",
+          "agirlik": 400
+        },
+        "aksan": {
+          "aile": "JetBrains Mono",
+          "agirlik": 500
+        }
+      },
+      "doku": "temiz",
+      "isik": "düz",
+      "hareket": "eksenler çizilir, noktalar yerine oturur",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "vinyet": 0.12
+      }
+    },
+    "c": {
+      "ad": "Gazete verisi",
+      "fikir": "Serif başlık ve mavi seri: gazete grafik masası.",
+      "renk": {
+        "arka": "#F5F1E8",
+        "murekkep": "#22223B",
+        "vurgu": "#3F5FD0",
+        "ikincil": "#C0392B",
+        "soluk": "#5F5E6E"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Newsreader",
+          "agirlik": 600,
+          "aralik": -0.01
+        },
+        "govde": {
+          "aile": "Work Sans",
+          "agirlik": 400
+        },
+        "aksan": {
+          "aile": "IBM Plex Mono",
+          "agirlik": 500
+        }
+      },
+      "doku": "kâğıt",
+      "isik": "düz",
+      "hareket": "sütunlar yükselir, not çizgisi uzanır",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "vinyet": 0.14,
+        "gren": 0.06,
+        "gren_karisim": "multiply",
+        "siyah": "#1A1815"
+      }
+    }
+  }
+}

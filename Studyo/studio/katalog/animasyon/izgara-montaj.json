@@ -1,0 +1,40 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "izgara-montaj",
+  "baslik": "Izgara montaj",
+  "ozet": "Modüler ızgara; hücreler vuruşla dolar, vurgu hücresi yer değiştirir. Hızlı, düzenli, müzikli.",
+  "uygun": [
+    "tanıtım",
+    "liste",
+    "müzikli"
+  ],
+  "kaynak": "katalog",
+  "kurallar": [
+    "Her vuruşta bir değişim; hareket vuruştan ≈0,05 sn önce başlar",
+    "Hücreler ortak dönüşüm eğrisiyle kayar",
+    "Desenler sürekli döner, vuruşa çentik atmaz",
+    "Bir anda tek vurgu hücresi"
+  ],
+  "kamera": "sabit ya da çok yavaş itme (%3–7)",
+  "gecis": "hücre büyüyüp kadrajı doldurur",
+  "tempo": {
+    "olay_aralik_sn": [
+      0.4,
+      0.9
+    ]
+  },
+  "yasak": [
+    "vuruşa çentik atan dönüş",
+    "beyaz flaş"
+  ],
+  "teknik": {
+    "remotion": "ONDEN (src/lib/anim.ts) ve vuruş ızgarası",
+    "hyperframes": "ST.beats ve stagger"
+  },
+  "ornekler": [
+    "twoclipping-551116",
+    "flxrnc-251921",
+    "techhalla-498547"
+  ],
+  "demo": "src/katalog/animasyon/ornekler.tsx#izgara-montaj"
+}

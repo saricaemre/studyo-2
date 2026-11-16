@@ -1,0 +1,38 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog ses stili: müzik (iki kaynak: \"kod\" = pipeline/muzik_stiller.py ön ayarı, \"ace\" = ACE-Step 1.5 yerel üretim), efekt ailesi (pipeline/sfx.py), anlatıcı ayarı ve miks. ./st yeni --ses ile script.json'a işlenir.",
+  "ad": "lofi-sicak",
+  "baslik": "Lo-fi sıcak",
+  "ozet": "Tozlu davul, elektrik piyano akorları, plak cızırtısı. Samimi, yavaş, anlatıcı yakın.",
+  "uygun": [
+    "günlük",
+    "samimi anlatı",
+    "eğitim"
+  ],
+  "kaynak": "katalog",
+  "muzik": {
+    "kod": {
+      "stil": "lofi",
+      "bpm": 82,
+      "ton": "F"
+    },
+    "ace": {
+      "caption": "lo-fi hip hop, dusty swung drums, warm rhodes seventh chords, vinyl crackle, mellow and cozy, instrumental",
+      "bpm": 82,
+      "ton": "F major",
+      "tohum": 42
+    }
+  },
+  "efekt": [
+    "paper_slide",
+    "wood_tok"
+  ],
+  "anlatim": {
+    "rate": "+4%",
+    "pitch": "-2Hz"
+  },
+  "miks": {
+    "muzik_db": -18,
+    "duck_db": -8,
+    "sessizlik": "yok"
+  }
+}

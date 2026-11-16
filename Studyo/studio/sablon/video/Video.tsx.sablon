@@ -1,0 +1,66 @@
+import React from 'react';
+import {AbsoluteFill, Audio, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {useFormat} from '../lib/format';
+import {makeCues, Timeline} from '../lib/time';
+import {GorunusDosyasi, StilSaglayici, stilSec, stilleriKur, useStil} from '../lib/gorunus';
+import {Bitis, BitisAyar} from '../components/Bitis';
+import {Captions} from '../components/Captions';
+import timelineJson from '../../public/{{ID}}/timeline.json';
+import cuesJson from '../../videos/{{ID}}/cues.json';
+import scriptJson from '../../videos/{{ID}}/script.json';
+import gorunusJson from '{{GORUNUS_JSON}}';
+
+const TL = timelineJson as Timeline;
+const C = makeCues(TL, cuesJson);
+/** Görünüş ({{GORUNUS}}): seçenekler modül yüklenirken kurulur; render'da seçilen ya da --props ile istenen kullanılır. */
+const G = gorunusJson as unknown as GorunusDosyasi;
+const STILLER = stilleriKur(G);
+
+/**
+ * Yalnız görüntü. Son rötuş (hareket bulanıklığı) bu bileşeni kesirli kare zamanlarında da çizer:
+ * t'yi her zaman useCurrentFrame() / fps'ten hesapla, dışarıdan t alma.
+ * Renk ve yazı yalnız useStil()'den gelir (STIL.arka, STIL.vurgu, yaziStili(STIL, 'baslik') …; büyük harf: buyuk(metin)): sabit renk yazma,
+ * yoksa üç görünüş denemesi aynı çıkar. Hareket dili: ../lib/anim · kurallar: zanaat.md §1c, §3–4.
+ * Plan aşamasında yalnız kanca karesi yazılır (görünüş denemesi: ./st gorunus {{ID}}). Yol modunda (gorunus.json → yol_modu) her seçenek
+ * ayrı bir fikirdir: kanca karesi useSecenek()'e göre dallanır (const yol = useSecenek(); yol === 'a' && …); plan tamamlanınca
+ * seçilmeyen dallar silinir.
+ */
+const Sahne: React.FC = () => {
+  const {fps} = useVideoConfig();
+  const t = useCurrentFrame() / fps;
+  const fm = useFormat();
+  const STIL = useStil();
+  void C;
+  void t;
+  return (
+    <AbsoluteFill style={{background: STIL.arka}}>
+      <div style={{position: 'absolute', left: fm.safe.left, top: fm.safe.top, width: fm.safe.right - fm.safe.left, height: fm.safe.bottom - fm.safe.top}}>
+        {/* sahneler: güvenli alanın içinde */}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+/**
+ * {{BASLIK}} · profil {{PROFIL}} · görünüş {{GORUNUS}} · formatlar {{FORMATLAR}}
+ * Her şey t'nin saf fonksiyonu (gizli saat, tohumsuz rastgelelik yok).
+ * Her format ayrı bir kompozisyondur: yerleşimi useFormat()'a göre kur, merkezden kırpma.
+ * Ses ve altyazı son rötuşun dışındadır: ses bir kez çalar, okunan yazı keskin kalır.
+ */
+export const {{COMP}}: React.FC = () => {
+  const {fps} = useVideoConfig();
+  const t = useCurrentFrame() / fps;
+  const STIL = stilSec(STILLER, G);
+  return (
+    <StilSaglayici value={STIL}>
+      {/* lang="tr": büyük harfe çevirme Türkçe kurala uyar (i → İ); yalnız büyük harfli yazı tipinde metni buyuk() ile yaz */}
+      <AbsoluteFill lang="tr" style={{background: STIL.arka}}>
+        {TL.sentences.length > 0 && <Audio src={staticFile('{{ID}}/mix.wav')} />}
+        <Bitis ayar={{...STIL.bitis, ...((scriptJson as {bitis?: BitisAyar}).bitis ?? {})}}>
+          <Sahne />
+        </Bitis>
+        <Captions t={t} sentences={TL.sentences} theme={STIL.altyaziTema} stil={STIL.altyazi} />
+      </AbsoluteFill>
+    </StilSaglayici>
+  );
+};

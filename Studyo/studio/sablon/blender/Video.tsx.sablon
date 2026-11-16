@@ -1,0 +1,63 @@
+import React from 'react';
+import {AbsoluteFill, Audio, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {useFormat} from '../lib/format';
+import {makeCues, Timeline} from '../lib/time';
+import {GorunusDosyasi, StilSaglayici, stilSec, stilleriKur, useStil} from '../lib/gorunus';
+import {Bitis, BitisAyar} from '../components/Bitis';
+import {Captions} from '../components/Captions';
+import {BlenderPlaka, PlakaKumeleri} from '../lib/BlenderPlaka';
+import timelineJson from '../../public/{{ID}}/timeline.json';
+import plakaJson from '../../public/{{ID}}/plaka.json';
+import cuesJson from '../../videos/{{ID}}/cues.json';
+import scriptJson from '../../videos/{{ID}}/script.json';
+import gorunusJson from '{{GORUNUS_JSON}}';
+
+const TL = timelineJson as Timeline;
+const C = makeCues(TL, cuesJson);
+/** Görünüş ({{GORUNUS}}): üst katmanın renk ve yazısı; aynı seçenek Blender sahnesine de gider (kit.renk). */
+const G = gorunusJson as unknown as GorunusDosyasi;
+const STILLER = stilleriKur(G);
+
+/**
+ * Üst katman: Blender plakasının üstüne yazı, logo, marka kartı. Plakada yazı çizilmez (okunurluk ve dil Remotion'da kalır).
+ * t'yi useCurrentFrame() / fps'ten hesapla; olay saatleri işaretlerden (C.<ad>). Renk ve yazı yalnız useStil()'den.
+ * Yerleşim her formatta ayrı (useFormat, güvenli alan); Blender sahnesi de kadrajı ST.format'a göre kurar.
+ */
+const Ustu: React.FC = () => {
+  const {fps} = useVideoConfig();
+  const t = useCurrentFrame() / fps;
+  const fm = useFormat();
+  const STIL = useStil();
+  void C;
+  void t;
+  void STIL;
+  return (
+    <AbsoluteFill>
+      <div style={{position: 'absolute', left: fm.safe.left, top: fm.safe.top, width: fm.safe.right - fm.safe.left, height: fm.safe.bottom - fm.safe.top}}>
+        {/* yazı ve logo: güvenli alanın içinde */}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+/**
+ * {{BASLIK}} · profil {{PROFIL}} · görünüş {{GORUNUS}} · formatlar {{FORMATLAR}} · motor Blender (blender/{{ID}}/sahne.py)
+ * Katmanlar: plaka (Blender, son rötuşla) → üst katman (yazı, logo) → altyazı. Ses stüdyonun miksidir.
+ */
+export const {{COMP}}: React.FC = () => {
+  const {fps} = useVideoConfig();
+  const t = useCurrentFrame() / fps;
+  const STIL = stilSec(STILLER, G);
+  return (
+    <StilSaglayici value={STIL}>
+      <AbsoluteFill lang="tr" style={{background: STIL.arka}}>
+        {TL.sentences.length > 0 && <Audio src={staticFile('{{ID}}/mix.wav')} />}
+        <Bitis ayar={{...STIL.bitis, ...((scriptJson as {bitis?: BitisAyar}).bitis ?? {}), bulaniklik: 0}}>
+          <BlenderPlaka id="{{ID}}" varsayilan={plakaJson as PlakaKumeleri} />
+        </Bitis>
+        <Ustu />
+        <Captions t={t} sentences={TL.sentences} theme={STIL.altyaziTema} stil={STIL.altyazi} />
+      </AbsoluteFill>
+    </StilSaglayici>
+  );
+};

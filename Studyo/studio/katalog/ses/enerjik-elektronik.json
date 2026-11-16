@@ -1,0 +1,39 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog ses stili: müzik (iki kaynak: \"kod\" = pipeline/muzik_stiller.py ön ayarı, \"ace\" = ACE-Step 1.5 yerel üretim), efekt ailesi (pipeline/sfx.py), anlatıcı ayarı ve miks. ./st yeni --ses ile script.json'a işlenir.",
+  "ad": "enerjik-elektronik",
+  "baslik": "Enerjik elektronik",
+  "ozet": "Kick, yan zincirli bas, parlak arpej, yükseliş ve patlama. Tanıtım, ürün, hızlı liste.",
+  "uygun": [
+    "tanıtım",
+    "ürün",
+    "müzikli"
+  ],
+  "kaynak": "katalog",
+  "muzik": {
+    "kod": {
+      "stil": "elektronik",
+      "bpm": 124,
+      "ton": "A"
+    },
+    "ace": {
+      "caption": "energetic electronic, punchy four on the floor kick, sidechained synth bass, bright arpeggios, build up and drop, instrumental",
+      "bpm": 124,
+      "ton": "A minor",
+      "tohum": 42
+    }
+  },
+  "efekt": [
+    "whoosh",
+    "shimmer",
+    "wood_tok"
+  ],
+  "anlatim": {
+    "rate": "+10%",
+    "pitch": "+0Hz"
+  },
+  "miks": {
+    "muzik_db": -14,
+    "duck_db": -10,
+    "sessizlik": "patlamadan önce 1 vuruş"
+  }
+}

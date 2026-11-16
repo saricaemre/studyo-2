@@ -1,0 +1,32 @@
+{
+  "_doc": "Marka kiti: kurumun resmi kimliği. ./st yeni ... --marka ihh → logolar public/<id>/varliklar/marka/'ya kopyalanır ve varliklar.md'ye onaylı girer; renkler HyperFrames'te --marka-<ad> değişkeni olur; brief ve plan marka.md'yi okur. Değerleri değiştirmek kullanıcı kararıdır.",
+  "ad": "İHH İnsani Yardım Vakfı",
+  "ad_en": "IHH Humanitarian Relief Foundation",
+  "kisa": "İHH",
+  "kaynak": "~/Documents/İHH DİJİTAL/Marka Kimliği/ (ihh.org.tr, 15 Ekim 2026) · İngilizce logolar: kurumun İngilizce logo paketi (Horizontal_en, Vertical_en, Circle_en)",
+  "renk": {
+    "yesil-koyu": "#026839",
+    "altin": "#A09744",
+    "yesil": "#1FAD4E",
+    "zekat": "#E84545",
+    "acil": "#E23131",
+    "yetim": "#22ABE6",
+    "mavi": "#0C8ADF",
+    "sari": "#E2B513",
+    "limon": "#7FBF40",
+    "murekkep": "#333333",
+    "zemin-yumusak": "#F8F8F8",
+    "beyaz": "#FFFFFF"
+  },
+  "yazi": {"ana": "Proxima Soft (lisanslı, Adobe Fonts)", "yedek": "Nunito", "arapca": "Tajawal", "aralik_em": -0.016},
+  "logolar": {
+    "yatay-tr": "logolar/ihh-logo-yatay-tr.svg",
+    "yatay-tr-beyaz": "logolar/ihh-logo-yatay-tr-beyaz.svg",
+    "yatay-tr-yesil": "logolar/ihh-logo-yatay-tr-tek-renk-yesil.svg",
+    "yatay-en": "logolar/ihh-logo-yatay-en.svg",
+    "dikey-en": "logolar/ihh-logo-dikey-en.svg",
+    "daire-en": "logolar/ihh-logo-daire-en.svg"
+  },
+  "adres": {"tr": "ihh.org.tr", "en": "ihh.org.tr/en/donate"},
+  "kampanya_rengi": {"yetim": "yetim", "zekat": "zekat", "gazze": "acil", "acil": "acil", "genel": "yesil", "su": "yesil"}
+}

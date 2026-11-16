@@ -1,0 +1,52 @@
+{
+  "_doc": "Seri görünüşü (paylaşılan): ./st yeni <id> --seri temel. Eski videolar src/stiller/temel/tokens.ts'i kullanır; renkler ve yazılar ikisinde aynı tutulur (./st gorunus denetler).",
+  "secim": "temel",
+  "secenekler": {
+    "temel": {
+      "ad": "Temel",
+      "fikir": "Nötr editoryal: sıcak kâğıt, mürekkep, tek turuncu vurgu; kesinlik hissi taşmasız hareketten gelir.",
+      "renk": {
+        "arka": "#F2EFE8",
+        "murekkep": "#141414",
+        "vurgu": "#D9480F",
+        "ikincil": "#2F5BFF",
+        "soluk": "#8C877C",
+        "kagit": "#F2EFE8"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Inter",
+          "agirlik": 800,
+          "aralik": -0.045
+        },
+        "govde": {
+          "aile": "Inter",
+          "agirlik": 600
+        },
+        "aksan": {
+          "aile": "Instrument Serif",
+          "agirlik": 400,
+          "italik": true
+        }
+      },
+      "doku": "kâğıt + gren (multiply %6)",
+      "isik": "düz, gölgesiz",
+      "hareket": "kesin, taşmasız; maskeden kayan kelime, kontrollü yerleşen panel",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "isik": 0,
+        "vinyet": 0.14,
+        "siyah": "#1A1815",
+        "gren": 0.06,
+        "gren_karisim": "multiply"
+      },
+      "yasak": [
+        "ortada büyük yazı + gradyan",
+        "fade-in metin",
+        "birden fazla turuncu odak",
+        "küçük yazıda turuncu"
+      ]
+    }
+  }
+}

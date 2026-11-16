@@ -1,0 +1,7 @@
+{
+  "_doc": "Her işaret = [cümle, kelime, ofset sn]. Zaman = kelime başlangıcı - lead + ofset. Görüntü (sahne kodu: Remotion ya da HyperFrames ST.isaretler) ve ses (ses.py) aynı listeyi okur. Her cümlenin anahtar kelimesine bir işaret bağlı olmalı.",
+  "lead": 0.083,
+  "cues": {},
+  "_seritler": "Kontak tabakasında ara kareleri gösterilecek hızlı geçişler: [işaret, süre sn]",
+  "seritler": []
+}

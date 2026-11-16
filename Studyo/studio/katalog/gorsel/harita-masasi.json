@@ -1,0 +1,130 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog görüntü stili: üç hazır varyasyon (a, b, c) = görünüş (renk, yazı, doku, ışık, malzeme dili). ./st yeni --gorsel ile videonun gorunus.json seçeneklerine kopyalanır; Claude videoya göre inceltebilir, seçimi kullanıcı yapar. Motoru ve hareketi SEÇMEZ: her motorda uygulanır. kurallar: stilin değişmezleri; teknik.<motor>: o motorda nasıl kurulur (uc = Three.js 3B katmanı). Blender'da renk alanındaki adlı renkler malzemelere gider (kit.renk), blender alanı ışık kararlarıdır; sahne kendi nesnelerine göre ad ekleyebilir. onizleme_motoru + onizleme_sahne: yalnız katalog önizlemesinin nerede ve hangi sahneyle çizildiği (./st katalog gorsel).",
+  "ad": "harita-masasi",
+  "baslik": "Harita masası",
+  "ozet": "Ahşap masa, parşömen harita, mum ışığı. Tarih ve coğrafya anlatısı.",
+  "uygun": [
+    "tarih",
+    "coğrafya",
+    "sefer"
+  ],
+  "kaynak": "katalog",
+  "varyasyonlar": {
+    "a": {
+      "ad": "Mum ışığı",
+      "fikir": "Mum ışığında ahşap masa ve parşömen.",
+      "renk": {
+        "arka": "#1A1009",
+        "murekkep": "#2B2118",
+        "vurgu": "#A63A2B",
+        "ikincil": "#2E4A7D",
+        "soluk": "#6E6150",
+        "kagit": "#EFE3C8"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Cormorant Garamond",
+          "agirlik": 700
+        },
+        "govde": {
+          "aile": "Lora",
+          "agirlik": 600
+        },
+        "aksan": {
+          "aile": "Cormorant Garamond",
+          "agirlik": 600,
+          "italik": true
+        }
+      },
+      "doku": "parşömen, ahşap, gren",
+      "isik": "mum ışığı, vinyet",
+      "hareket": "haritaya dalış, piyon toku",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "isik": 0.15,
+        "isik_esik": 0.78,
+        "isik_yaricap": 14,
+        "vinyet": 0.3,
+        "gren": 0.09,
+        "gren_karisim": "overlay",
+        "siyah": "#16110C"
+      }
+    },
+    "b": {
+      "ad": "Gündüz haritası",
+      "fikir": "Gün ışığında açık masa ve lacivert mürekkep.",
+      "renk": {
+        "arka": "#B9A27A",
+        "murekkep": "#2B2118",
+        "vurgu": "#2E4A7D",
+        "soluk": "#6B5D47",
+        "kagit": "#F2E8D0"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Playfair Display",
+          "agirlik": 700
+        },
+        "govde": {
+          "aile": "EB Garamond",
+          "agirlik": 500
+        },
+        "aksan": {
+          "aile": "Playfair Display",
+          "agirlik": 400,
+          "italik": true
+        }
+      },
+      "doku": "parşömen, gölge",
+      "isik": "pencere ışığı",
+      "hareket": "pergel ve cetvelle ölçer",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "vinyet": 0.2,
+        "gren": 0.07,
+        "gren_karisim": "overlay"
+      }
+    },
+    "c": {
+      "ad": "Deniz haritası",
+      "fikir": "Gece mavisi masa, krem deniz haritası, mavi-yeşil rota.",
+      "renk": {
+        "arka": "#0F1B2D",
+        "murekkep": "#1E2A3A",
+        "vurgu": "#1F5E7A",
+        "soluk": "#5A6270",
+        "kagit": "#E8DFC8"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Libre Baskerville",
+          "agirlik": 700
+        },
+        "govde": {
+          "aile": "Newsreader",
+          "agirlik": 500
+        },
+        "aksan": {
+          "aile": "Libre Baskerville",
+          "agirlik": 400,
+          "italik": true
+        }
+      },
+      "doku": "deniz haritası, gren",
+      "isik": "fener ışığı",
+      "hareket": "rota çizilir, pusula döner",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "isik": 0.12,
+        "isik_esik": 0.8,
+        "vinyet": 0.32,
+        "gren": 0.08,
+        "gren_karisim": "overlay",
+        "siyah": "#0E1520"
+      }
+    }
+  }
+}

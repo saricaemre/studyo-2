@@ -1,0 +1,137 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog görüntü stili: üç hazır varyasyon (a, b, c) = görünüş (renk, yazı, doku, ışık, malzeme dili). ./st yeni --gorsel ile videonun gorunus.json seçeneklerine kopyalanır; Claude videoya göre inceltebilir, seçimi kullanıcı yapar. Motoru ve hareketi SEÇMEZ: her motorda uygulanır. kurallar: stilin değişmezleri; teknik.<motor>: o motorda nasıl kurulur (uc = Three.js 3B katmanı). Blender'da renk alanındaki adlı renkler malzemelere gider (kit.renk), blender alanı ışık kararlarıdır; sahne kendi nesnelerine göre ad ekleyebilir. onizleme_motoru + onizleme_sahne: yalnız katalog önizlemesinin nerede ve hangi sahneyle çizildiği (./st katalog gorsel).",
+  "ad": "gece-sinematik",
+  "baslik": "Gece sinematik",
+  "ozet": "Koyu zemin, tek sıcak ışık, film greni ve ışık taşması. Dram, gerilim, kamu spotu.",
+  "uygun": [
+    "kamu spotu",
+    "gerilim",
+    "belgesel kısa"
+  ],
+  "kaynak": "katalog",
+  "varyasyonlar": {
+    "a": {
+      "ad": "Sodyum lambası",
+      "fikir": "Gece asfaltı ve tek sıcak ışık: risk karanlıkta görünür.",
+      "renk": {
+        "arka": "#0D0F12",
+        "murekkep": "#F1EDE4",
+        "vurgu": "#FFB020",
+        "soluk": "#8A919B"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Bebas Neue",
+          "agirlik": 400,
+          "aralik": 0.01
+        },
+        "govde": {
+          "aile": "Inter",
+          "agirlik": 500
+        },
+        "aksan": {
+          "aile": "Instrument Serif",
+          "agirlik": 400,
+          "italik": true
+        }
+      },
+      "doku": "film greni, ıslak parıltı",
+      "isik": "tek sıcak kaynak, sert gölge",
+      "hareket": "yavaş yaklaşma, ani kesme yok",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "isik": 0.3,
+        "isik_esik": 0.7,
+        "isik_yaricap": 14,
+        "vinyet": 0.35,
+        "gren": 0.08,
+        "gren_karisim": "overlay",
+        "siyah": "#14171C"
+      },
+      "yasak": [
+        "kan, yaralı beden"
+      ]
+    },
+    "b": {
+      "ad": "Soğuk mavi gece",
+      "fikir": "Soğuk mavi ışık ve dar başlık: klinik, mesafeli gerilim.",
+      "renk": {
+        "arka": "#0B0E14",
+        "murekkep": "#E8ECF2",
+        "vurgu": "#4FB3FF",
+        "soluk": "#8892A0"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Oswald",
+          "agirlik": 600,
+          "aralik": 0.01
+        },
+        "govde": {
+          "aile": "Work Sans",
+          "agirlik": 500
+        },
+        "aksan": {
+          "aile": "Newsreader",
+          "agirlik": 400,
+          "italik": true
+        }
+      },
+      "doku": "film greni",
+      "isik": "soğuk yan ışık",
+      "hareket": "ağır, sabit kamera",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "isik": 0.3,
+        "isik_esik": 0.7,
+        "isik_yaricap": 14,
+        "vinyet": 0.35,
+        "gren": 0.08,
+        "gren_karisim": "overlay",
+        "siyah": "#11151C"
+      }
+    },
+    "c": {
+      "ad": "Alarm kırmızısı",
+      "fikir": "Koyu kahve zemin ve alarm kırmızısı: yaklaşan tehlike.",
+      "renk": {
+        "arka": "#120B0A",
+        "murekkep": "#F3E6DA",
+        "vurgu": "#FF4D3D",
+        "soluk": "#9C8C80"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Anton",
+          "agirlik": 400,
+          "aralik": 0.02
+        },
+        "govde": {
+          "aile": "Manrope",
+          "agirlik": 500
+        },
+        "aksan": {
+          "aile": "Playfair Display",
+          "agirlik": 400,
+          "italik": true
+        }
+      },
+      "doku": "kalın gren",
+      "isik": "kırmızı ışık sızıntısı",
+      "hareket": "sert vuruşlar, uzun durgunluk",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "isik": 0.3,
+        "isik_esik": 0.7,
+        "isik_yaricap": 14,
+        "vinyet": 0.35,
+        "gren": 0.08,
+        "gren_karisim": "overlay",
+        "siyah": "#1A1210"
+      }
+    }
+  }
+}

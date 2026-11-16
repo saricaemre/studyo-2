@@ -1,0 +1,16 @@
+{
+  "ad": "tanitim-muzikli",
+  "aciklama": "Anlatıcısız, müziğe kesilen tanıtım/ürün/marka filmi; aynı hikâyeden 16:9, 9:16 ve 1:1 ayrı kompozisyon",
+  "formatlar": ["16x9", "9x16", "1x1"],
+  "anlatim": false,
+  "sure": [10, 45],
+  "kanca_sn": 2.0,
+  "olay_bosluk_sn": 2.0,
+  "senkron_kare": 1,
+  "lufs": [-15, -13],
+  "tp": -1.0,
+  "vuruslar": ["Kanca", "Sorun", "Açılış", "Kanıt", "Kapanış"],
+  "dongu": false,
+  "kaynak_zorunlu": false,
+  "varlik_zorunlu": true
+}

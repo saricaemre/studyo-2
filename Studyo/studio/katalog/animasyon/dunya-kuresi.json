@@ -1,0 +1,49 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "dunya-kuresi",
+  "baslik": "Dünya küresi",
+  "ozet": "Gerçek coğrafyalı bir dünya küresi döner, kamera bir yere iner, işaret nabız atar ve yer adı gelir. Bir yardımın, bir yolculuğun ya da bir verinin dünyadaki yeri tek hamlede okunur.",
+  "uygun": [
+    "bağış",
+    "kampanya",
+    "haber",
+    "veri hikâyesi",
+    "lojistik",
+    "belgesel"
+  ],
+  "kaynak": "katalog",
+  "uc": true,
+  "kurallar": [
+    "Coğrafya gerçek: kıyı çizgileri Natural Earth haritasından gelir; kıta, sınır ya da konum uydurulmaz, işaretlenen yerin koordinatı kaynakta yazar",
+    "Sınır çizgisi ve ülke vurgusu siyasi bir tercihtir: varsayılan kapalı; açmak ve hangi ülkenin vurgulanacağı senin kararın",
+    "Tek hareket iki eksende: küre hedefe döner, kamera aynı eğriyle yaklaşır; ikisi aynı anda biter",
+    "İşaret küreyle birlikte döner; nabız zamanın fonksiyonu, yer adı küre durduktan sonra",
+    "Yazı karanın üstüne düşüyorsa altına koyu bir geçiş",
+    "Birden çok yer: her biri için ayrı bir duruş (döner, durur, işaret, ad), aralarında kamera biraz uzaklaşır"
+  ],
+  "kamera": "uzaktan bütün küre (formata sığar) → hedefe yaklaşma; dikeyde küre üst yarıda, yazı altta",
+  "gecis": "küre bir sonraki yere döner; kesme yerine dönüş",
+  "tempo": {
+    "olay_aralik_sn": [
+      1.2,
+      2.5
+    ]
+  },
+  "yasak": [
+    "uydurma kıta ya da yanlış konum",
+    "sürekli fırıl fırıl dönen küre",
+    "her ülkeye renk",
+    "kaynaksız rakam etiketi"
+  ],
+  "teknik": {
+    "uc": "src/lib/uc: DunyaKuresi + KureIsareti, yuzunuDondur(enlem, boylam), dunyaDokusu (Natural Earth 1:50m); HyperFrames'te uc.js aynı adlar; teknik örnek src/katalog/animasyon/uc.tsx#dunya-kuresi",
+    "blender": "UV küre + gerçek eşdikdörtgen harita dokusu varlık olarak (varliklar.md; Natural Earth raster kamu malı); yoksa küreyi 3B katmanda yap"
+  },
+  "gorunus_ipucu": "Görüntü stili seçilmediyse: koyu uzay zemini, koyu deniz, açık kara, kenarda ince atmosfer",
+  "ornekler": [
+    "egeberkina-949521",
+    "alexalbert-274839"
+  ],
+  "demo": "src/katalog/animasyon/uc.tsx#dunya-kuresi",
+  "ornek_hf": "hf/uc_deneme_hf/index.html"
+}

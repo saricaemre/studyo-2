@@ -1,0 +1,40 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog ses stili: müzik (iki kaynak: \"kod\" = pipeline/muzik_stiller.py ön ayarı, \"ace\" = ACE-Step 1.5 yerel üretim), efekt ailesi (pipeline/sfx.py), anlatıcı ayarı ve miks. ./st yeni --ses ile script.json'a işlenir.",
+  "ad": "belgesel-sakin",
+  "baslik": "Belgesel sakin",
+  "ozet": "Yumuşak piyano ve yaylı katmanı, davulsuz. Anlatıyı taşır, öne çıkmaz.",
+  "uygun": [
+    "belgesel",
+    "açıklayıcı",
+    "tarih"
+  ],
+  "kaynak": "katalog",
+  "muzik": {
+    "kod": {
+      "stil": "piyano-pad",
+      "bpm": 72,
+      "ton": "D"
+    },
+    "ace": {
+      "caption": "calm documentary underscore, soft felt piano, warm string pad, sparse and reflective, no drums, instrumental",
+      "bpm": 72,
+      "ton": "D minor",
+      "tohum": 42
+    }
+  },
+  "efekt": [
+    "paper_rustle",
+    "paper_slide",
+    "wood_tok",
+    "quill"
+  ],
+  "anlatim": {
+    "rate": "+0%",
+    "pitch": "-2Hz"
+  },
+  "miks": {
+    "muzik_db": -20,
+    "duck_db": -10,
+    "sessizlik": "bölüm aralarında 0,4 sn"
+  }
+}

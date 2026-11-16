@@ -1,0 +1,126 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog görüntü stili: üç hazır varyasyon (a, b, c) = görünüş (renk, yazı, doku, ışık, malzeme dili). ./st yeni --gorsel ile videonun gorunus.json seçeneklerine kopyalanır; Claude videoya göre inceltebilir, seçimi kullanıcı yapar. Motoru ve hareketi SEÇMEZ: her motorda uygulanır. kurallar: stilin değişmezleri; teknik.<motor>: o motorda nasıl kurulur (uc = Three.js 3B katmanı). Blender'da renk alanındaki adlı renkler malzemelere gider (kit.renk), blender alanı ışık kararlarıdır; sahne kendi nesnelerine göre ad ekleyebilir. onizleme_motoru + onizleme_sahne: yalnız katalog önizlemesinin nerede ve hangi sahneyle çizildiği (./st katalog gorsel).",
+  "ad": "editoryal-kagit",
+  "baslik": "Editoryal kâğıt",
+  "ozet": "Sıcak kâğıt, mürekkep, tek vurgu. Sakin ve kesin: açıklayıcı, tanıtım, deneme.",
+  "uygun": [
+    "açıklayıcı",
+    "tanıtım",
+    "fikir videosu"
+  ],
+  "kaynak": "katalog",
+  "varyasyonlar": {
+    "a": {
+      "ad": "Kâğıt ve turuncu",
+      "fikir": "Sıcak kâğıtta mürekkep ve tek turuncu odak.",
+      "renk": {
+        "arka": "#F2EFE8",
+        "murekkep": "#141414",
+        "vurgu": "#D9480F",
+        "ikincil": "#2F5BFF",
+        "soluk": "#6E695F"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Inter",
+          "agirlik": 800,
+          "aralik": -0.045
+        },
+        "govde": {
+          "aile": "Inter",
+          "agirlik": 600
+        },
+        "aksan": {
+          "aile": "Instrument Serif",
+          "agirlik": 400,
+          "italik": true
+        }
+      },
+      "doku": "kâğıt + hafif gren",
+      "isik": "düz",
+      "hareket": "kesin, taşmasız",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "vinyet": 0.14,
+        "gren": 0.06,
+        "gren_karisim": "multiply",
+        "siyah": "#1A1815"
+      }
+    },
+    "b": {
+      "ad": "Kâğıt ve mavi serif",
+      "fikir": "Serif başlık ve mürekkep mavisiyle dergi sayfası.",
+      "renk": {
+        "arka": "#EFEBE2",
+        "murekkep": "#16181D",
+        "vurgu": "#1F4FD8",
+        "soluk": "#6A6760"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Fraunces",
+          "agirlik": 700,
+          "aralik": -0.02
+        },
+        "govde": {
+          "aile": "Inter",
+          "agirlik": 500
+        },
+        "aksan": {
+          "aile": "Fraunces",
+          "agirlik": 400,
+          "italik": true
+        }
+      },
+      "doku": "kâğıt + hafif gren",
+      "isik": "düz",
+      "hareket": "sakin, sayfa çevirir gibi",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "vinyet": 0.14,
+        "gren": 0.06,
+        "gren_karisim": "multiply",
+        "siyah": "#1A1815"
+      }
+    },
+    "c": {
+      "ad": "Kâğıt ve yeşil grotesk",
+      "fikir": "Karakterli grotesk ve koyu yeşil vurgu: çağdaş ve düzenli.",
+      "renk": {
+        "arka": "#F4F1EA",
+        "murekkep": "#1A1A1A",
+        "vurgu": "#0F7B5F",
+        "soluk": "#66645D"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Space Grotesk",
+          "agirlik": 700,
+          "aralik": -0.03
+        },
+        "govde": {
+          "aile": "Work Sans",
+          "agirlik": 500
+        },
+        "aksan": {
+          "aile": "Newsreader",
+          "agirlik": 400,
+          "italik": true
+        }
+      },
+      "doku": "kâğıt",
+      "isik": "düz",
+      "hareket": "kesin, ızgaraya oturan",
+      "bitis": {
+        "bulaniklik": 8,
+        "aci": 180,
+        "vinyet": 0.14,
+        "gren": 0.06,
+        "gren_karisim": "multiply",
+        "siyah": "#1A1815"
+      }
+    }
+  }
+}

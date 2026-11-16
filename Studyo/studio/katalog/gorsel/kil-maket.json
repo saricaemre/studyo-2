@@ -1,0 +1,218 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog görüntü stili: üç hazır varyasyon (a, b, c) = görünüş (renk, yazı, doku, ışık, malzeme dili). ./st yeni --gorsel ile videonun gorunus.json seçeneklerine kopyalanır; Claude videoya göre inceltebilir, seçimi kullanıcı yapar. Motoru ve hareketi SEÇMEZ: her motorda uygulanır. kurallar: stilin değişmezleri; teknik.<motor>: o motorda nasıl kurulur (uc = Three.js 3B katmanı). Blender'da renk alanındaki adlı renkler malzemelere gider (kit.renk), blender alanı ışık kararlarıdır; sahne kendi nesnelerine göre ad ekleyebilir. onizleme_motoru + onizleme_sahne: yalnız katalog önizlemesinin nerede ve hangi sahneyle çizildiği (./st katalog gorsel).",
+  "ad": "kil-maket",
+  "baslik": "Kil maket",
+  "ozet": "Masa üstü bir kil ve kâğıt maketi: parmak izli kil, lifli kâğıt, gerçek ışık ve alan derinliği. Kampanya, bağış, masal, sıcak marka hikâyesi; yazı ve logo üstte.",
+  "uygun": [
+    "kampanya",
+    "bağış",
+    "masal",
+    "marka hikâyesi",
+    "teaser"
+  ],
+  "kaynak": "katalog",
+  "kurallar": [
+    "Tek malzeme dili: aynı parmak izli kil, aynı lifli kâğıt, aynı keçe; hiçbir yüzey tek ton ya da plastik parlak değil",
+    "Gerçek ışık ve yumuşak gölge malzemenin dokusunu okutur"
+  ],
+  "teknik": {
+    "blender": "kit.kil, kit.kagit (maket ölçeği, gerçek alan derinliği); görünüşün blender alanı ışığı taşır",
+    "uc": "malzeme.kil + Isik (yumuşak gölge); doku ince gürültüyle",
+    "hyperframes": "2,5B: kil dokusu görsel varlık ya da SVG gürültü filtresi + yumuşak gölge; tam kil hissi için Blender",
+    "remotion": "2,5B: doku görseli + gölge; tam kil hissi için Blender"
+  },
+  "ornek_film": "kil_kamp",
+  "onizleme_motoru": "blender",
+  "onizleme_sahne": "katalog/animasyon/blender/maket-dunyasi/sahne.py",
+  "onizleme_kare": 66,
+  "varyasyonlar": {
+    "a": {
+      "ad": "Gece masalı · tek sıcak pencere",
+      "fikir": "Ay ışığında soğuk mavi bir maket; dünyadaki tek sıcak renk yanan bir pencere ya da kor. İyiliğin, umudun, eve dönüşün masalı.",
+      "renk": {
+        "arka": "#0D1322",
+        "murekkep": "#EEF2F8",
+        "vurgu": "#FF9A45",
+        "ikincil": "#C6D6F0",
+        "soluk": "#8D9AB2",
+        "gok_ust": "#0E1428",
+        "gok_alt": "#4B5C84",
+        "dunya": "#1A2338",
+        "ana_isik": "#C9DAFF",
+        "dolgu": "#9FB2E0",
+        "zemin": "#C8D3E6",
+        "kagit_arka": "#2E3A56",
+        "kagit_on": "#1E2840",
+        "ev": "#B9B2A6",
+        "cati": "#5E6B86",
+        "agac": "#3E5A6E",
+        "govde": "#4E4038",
+        "figur1": "#5C6B84",
+        "figur2": "#8A7E9C",
+        "ten": "#C89A84",
+        "sicak": "#FF9A45",
+        "sicak_isik": "#FFB070"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Fredoka",
+          "agirlik": 600,
+          "aralik": -0.01
+        },
+        "govde": {
+          "aile": "Nunito",
+          "agirlik": 600
+        }
+      },
+      "doku": "parmak izli kil, lifli kâğıt, ince film greni",
+      "isik": "soğuk, yönlü ay ışığı; tek sıcak kaynak pencere ya da kor",
+      "hareket": "yavaş maket kamerası, ağır kil hareketi, ışık yanınca sevinç",
+      "bitis": {
+        "bulaniklik": 0,
+        "isik": 0.32,
+        "isik_esik": 0.55,
+        "isik_yaricap": 18,
+        "vinyet": 0.3,
+        "gren": 0.05,
+        "gren_karisim": "overlay"
+      },
+      "blender": {
+        "ana_guc": 1.3,
+        "dolgu_guc": 0.15,
+        "pozlama": 0.0,
+        "bakis": "AgX - Medium High Contrast",
+        "dunya_guc": 1.0
+      },
+      "yasak": [
+        "bütün sahneyi turuncuya boğmak",
+        "kamera sarsıntısı"
+      ]
+    },
+    "b": {
+      "ad": "Gün ışığı atölyesi · pastel kil",
+      "fikir": "Pencereden vuran sabah güneşinde pastel kil: nane, şeftali, tereyağı tonları; neşeli, yumuşak, çocuksu bir maket.",
+      "renk": {
+        "arka": "#F6EFE4",
+        "murekkep": "#2B2520",
+        "vurgu": "#E8574A",
+        "ikincil": "#3F8F8A",
+        "soluk": "#6E655C",
+        "gok_ust": "#9FD3EA",
+        "gok_alt": "#FFE9C7",
+        "dunya": "#E9E4DA",
+        "ana_isik": "#FFF2DC",
+        "dolgu": "#D8E8F2",
+        "zemin": "#A7D7A0",
+        "kagit_arka": "#8CC7BF",
+        "kagit_on": "#5FAF92",
+        "ev": "#FFC9A0",
+        "cati": "#E2483B",
+        "agac": "#4FA374",
+        "govde": "#A8775A",
+        "figur1": "#F2C14E",
+        "figur2": "#7FA7E0",
+        "ten": "#E9B59A",
+        "sicak": "#FFC86B",
+        "sicak_isik": "#FFD28A"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Baloo Two",
+          "agirlik": 700,
+          "aralik": -0.01
+        },
+        "govde": {
+          "aile": "Quicksand",
+          "agirlik": 600
+        }
+      },
+      "doku": "yumuşak pastel kil, mat kâğıt, gren yok denecek kadar ince",
+      "isik": "parlak, sıcak sabah güneşi ve geniş gökyüzü dolgusu; yumuşak gölgeler",
+      "hareket": "zıplayan, hafif yaylı kil hareketi; kamera yavaş süzülür",
+      "bitis": {
+        "bulaniklik": 0,
+        "isik": 0.12,
+        "isik_esik": 0.8,
+        "isik_yaricap": 14,
+        "vinyet": 0.14,
+        "gren": 0.025,
+        "gren_karisim": "multiply"
+      },
+      "blender": {
+        "ana_guc": 2.6,
+        "dolgu_guc": 0.45,
+        "pozlama": -0.1,
+        "bakis": "AgX - Base Contrast",
+        "dunya_guc": 0.3,
+        "gok_guc": 2.0
+      },
+      "yasak": [
+        "kirli, gri pastel",
+        "neon doygunluk"
+      ]
+    },
+    "c": {
+      "ad": "Altın saat · terrakota",
+      "fikir": "Gün batımında alçak altın ışık ve uzun gölgeler: terrakota, okra, zeytin kili; sıcak, toprak kokulu, nostaljik bir maket.",
+      "renk": {
+        "arka": "#2A1A14",
+        "murekkep": "#FBEADB",
+        "vurgu": "#F2A541",
+        "ikincil": "#9DB4C0",
+        "soluk": "#B59A86",
+        "gok_ust": "#4F6C8C",
+        "gok_alt": "#F0A870",
+        "dunya": "#6A4A3C",
+        "ana_isik": "#FFC489",
+        "dolgu": "#7D90B5",
+        "zemin": "#B08A66",
+        "kagit_arka": "#9C6E62",
+        "kagit_on": "#6E4A3C",
+        "ev": "#E7C9A2",
+        "cati": "#B4502F",
+        "agac": "#6E7A3A",
+        "govde": "#5B3B28",
+        "figur1": "#3E6E7A",
+        "figur2": "#D9A441",
+        "ten": "#C98E6E",
+        "sicak": "#FF8A3D",
+        "sicak_isik": "#FFA45C"
+      },
+      "yazi": {
+        "baslik": {
+          "aile": "Fraunces",
+          "agirlik": 600,
+          "aralik": -0.02
+        },
+        "govde": {
+          "aile": "Lora",
+          "agirlik": 500
+        }
+      },
+      "doku": "kaba terrakota kil, sıcak kâğıt, orta gren",
+      "isik": "alçak, altın gün batımı; uzun gölgeler, mavi gölge dolgusu",
+      "hareket": "ağır, sakin: kamera yavaş kayar, tek bir olay yeter",
+      "bitis": {
+        "bulaniklik": 0,
+        "isik": 0.26,
+        "isik_esik": 0.6,
+        "isik_yaricap": 22,
+        "vinyet": 0.28,
+        "gren": 0.06,
+        "gren_karisim": "overlay"
+      },
+      "blender": {
+        "ana_guc": 2.6,
+        "dolgu_guc": 0.2,
+        "pozlama": 0.0,
+        "bakis": "AgX - Medium High Contrast",
+        "dunya_guc": 0.45,
+        "gok_guc": 1.5
+      },
+      "yasak": [
+        "bütün sahne tek turuncu",
+        "çamur kahvesi gölgeler"
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "arsiv": "panelden iptal edildi · 2026-10-27",
+  "id": "ihh_sofra",
+  "title": "Joy of Orphan's Table",
+  "profil": "reklam-kisa",
+  "gorunus": "video",
+  "comp": "IhhSofra",
+  "fps": 30,
+  "bitis": {},
+  "kor_elestiri": true,
+  "ses": {"kaynak": "yok", "muzik": "muzik.wav", "muzik_db": -3.0},
+  "leadIn": 0.2,
+  "tail": 1.6,
+  "learningGoal": "Telefondan yapılan küçük bir bağış dünyanın öbür ucundaki bir yetimhanenin sofrasını neşeyle doldurur.",
+  "sure": ["t", 22.0],
+  "formatlar": ["16x9", "9x16", "1x1"],
+  "motor": "hyperframes",
+  "dil": "en",
+  "hyperframes": "0.8.181",
+  "marka": "ihh",
+  "ice_aktarim": {"kaynak": "(stüdyo dışında, kullanıcının HyperFrames projesi)", "arac": "HyperFrames 0.8.174 (stüdyo dışında, kullanıcıyla)", "tarih": "2026-10-19", "not": "Senaryo, görünüş ve ses kullanıcıyla HyperFrames'te kuruldu; stüdyoya 2026-10-22'de alındı. Sahne zamanları kaynaktaki GSAP zaman çizelgesinden (işaretler 't')."},
+  "sentences": [
+    {"id": "b1", "step": "Kanca", "bas": ["t", 0.0], "bit": ["t", 3.9], "shot": {"isaret": "k_dokunus", "plan": "Gece, sıcak oda: elde telefon, ekranda İHH 'Joy of Orphan's Table' sayfası; pencerede ay, koltukta uyuyan kedi", "giris": "İlk karede oda ve telefon hazır; altyazı kelime kelime gelir", "cikis": "Başparmak Donate'e basar, butondan kanatlı kalp doğar ve ekrana yükselir", "gecis": "Kamera kalbe yaklaşır (×1,45), kalp gece göğüne taşınır", "olay": "Dokunuş → 'Thank you!' → kalp maskot doğar", "ses": "tık, çan, baloncuk, parıltı", "amac": "Bağışın ne kadar kolay olduğunu ve kahramanı (kalbi) ilk saniyede kurmak"}},
+    {"id": "b2", "step": "Yolculuk", "bas": ["t", 3.9], "bit": ["t", 8.4], "shot": {"isaret": "y_ucus", "plan": "Dönen dünya, gece göğü şafağa döner; kalp noktalı izle dünyanın üstünden uçar, balon, kuşlar, güneş doğar", "giris": "Kalp ekranın ortasında büyük, sonra küçülerek yola çıkar", "cikis": "Kalp yetimhanenin çatısına iner", "gecis": "Kamera evin üstüne dalar (×8), yetimhane sahnesi açılır", "olay": "Gece → şafak geçişi; uçuş izi", "ses": "süzülme, çan", "amac": "Mesafeyi ve zamanı tek bir yolculukla anlatmak: bir tık dünyanın öbür ucuna gider"}},
+    {"id": "b3", "step": "Varış", "bas": ["t", 8.4], "bit": ["t", 10.9], "shot": {"isaret": "v_yetimhane", "plan": "Gündüz, yatılı yetimhane: pencerelerde çocuklar, etüt odası, yemekhane, salıncak, ipte çamaşır", "giris": "Kamera geri çekilerek yerleşir; kalp eğri bir yolla pencereye süzülür", "cikis": "Kalp yemekhane penceresinden içeri girer", "gecis": "Kamera pencereye dalar (×7)", "olay": "Yetimhanenin yaşayan ayrıntıları", "ses": "süzülme, baloncuk", "amac": "Bağışın gittiği yeri somut, sıcak ve onurlu göstermek"}},
+    {"id": "b4", "step": "Doruk", "bas": ["t", 10.9], "bit": ["t", 17.7], "shot": {"isaret": "d_patlama", "plan": "Yemekhane: kareli örtülü masada yedi çocuk, boş tabaklar, kara tahtada 'Today's Menu'", "giris": "Çocuklar kalbi gözleriyle izler; kalp boş masaya iner", "cikis": "Büyük kalp ekranı İHH yeşiline boyar", "gecis": "Kalp büyüyüp ekranı yutar (kalp silme)", "olay": "Patlama: konfeti, yemekler belirir, tahta kendini yazar, çocuklar sevinir, 'Thank you!' balonu", "ses": "gümleme, konfeti, parıltı, tebeşir, yay", "amac": "Filmin doruğu: küçük bir tıkın büyük bir sevince dönüşmesi"}},
+    {"id": "b5", "step": "Marka", "bas": ["t", 17.7], "bit": ["t", 22.0], "shot": {"isaret": "m_marka", "plan": "İHH yeşili kart: logo, 'Bring Joy to an Orphan's Table', 'A small gift. A big smile.', Donate Now, ihh.org.tr/en/donate", "giris": "Yeşil, kalbin yutuşundan gelir; başlık kelime kelime", "cikis": "Parmak Donate Now'a dokunur, kalpler yükselir; son kare poster", "gecis": "yok (film biter)", "olay": "Harekete çağrı", "ses": "baloncuk, tık, parıltı", "amac": "İzleyiciyi aynı tıkı yapmaya çağırmak"}}
+  ]
+}

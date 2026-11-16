@@ -1,0 +1,35 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "sonsuz-yakinlasma",
+  "baslik": "Sonsuz yakınlaşma",
+  "ozet": "İç içe dünyalar: her sahne bir öncekinin içinde, kamera sürekli ve logaritmik olarak yaklaşır.",
+  "uygun": [
+    "ölçek anlatısı",
+    "kanca",
+    "döngü"
+  ],
+  "kaynak": "katalog",
+  "kurallar": [
+    "Ölçek logaritmik; sabit oranlı yakınlaşma kusursuz döngü verir",
+    "Her kat bir öncekinin içinde, yerinde görünür",
+    "Etiketler kat büyürken okunur kalır"
+  ],
+  "kamera": "tek ve kesintisiz yakınlaşma",
+  "gecis": "yakınlaşmanın kendisi",
+  "tempo": {
+    "olay_aralik_sn": [
+      1.0,
+      2.0
+    ]
+  },
+  "yasak": [
+    "yakınlaşma sırasında kesme",
+    "yön değiştirme"
+  ],
+  "teknik": {
+    "remotion": "logaritmik ölçek (camera.ts)",
+    "blender": "kamera odak uzaklığı ya da konum logaritmik anahtarlarla"
+  },
+  "ornekler": [],
+  "demo": "src/katalog/animasyon/ornekler.tsx#sonsuz-yakinlasma"
+}

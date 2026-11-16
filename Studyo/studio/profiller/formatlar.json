@@ -1,0 +1,15 @@
+{
+  "_doc": "En-boy formatları. guvenli: platform arayüzünün kapladığı kenar payları (oran). altyazi: bant konumu (oran) ve 1080 kısa kenara göre punto.",
+  "9x16": {"w": 1080, "h": 1920, "ad": "Dikey (Reels, Shorts, TikTok, hikâye)",
+           "guvenli": {"ust": 0.10, "alt": 0.25, "sol": 0.0, "sag": 0.15},
+           "altyazi": {"ust": 0.60, "yukseklik": 0.078125, "yan": 90, "punto": 54}},
+  "16x9": {"w": 1920, "h": 1080, "ad": "Yatay (YouTube, web, sunum, ekran)",
+           "guvenli": {"ust": 0.06, "alt": 0.12, "sol": 0.05, "sag": 0.05},
+           "altyazi": {"ust": 0.76, "yukseklik": 0.12, "yan": 300, "punto": 50}},
+  "1x1":  {"w": 1080, "h": 1080, "ad": "Kare (akış gönderisi)",
+           "guvenli": {"ust": 0.05, "alt": 0.10, "sol": 0.05, "sag": 0.05},
+           "altyazi": {"ust": 0.72, "yukseklik": 0.13, "yan": 90, "punto": 48}},
+  "4x5":  {"w": 1080, "h": 1350, "ad": "Dikey akış (Instagram)",
+           "guvenli": {"ust": 0.05, "alt": 0.12, "sol": 0.05, "sag": 0.05},
+           "altyazi": {"ust": 0.70, "yukseklik": 0.10, "yan": 90, "punto": 50}}
+}

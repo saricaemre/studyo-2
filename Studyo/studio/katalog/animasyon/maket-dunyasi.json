@@ -1,0 +1,52 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Hareket tarifi: kamera, tempo, geçiş, sahneleme. Motoru ve görünüşü SEÇMEZ: her motorda ve her görüntü stiliyle uygulanır; birleşimi Claude filme göre uyarlar. kurallar: motordan ve görünüşten bağımsız. teknik.<motor>: o motorda nasıl yapılır (remotion, hyperframes, blender; uc = Three.js 3B katmanı, Remotion ve HyperFrames'te). gorunus_ipucu: yalnız görüntü stili seçilmediyse. demo + ornek_motor: TEKNİK ÖRNEK; dünyası, malzemesi, rengi ve karakterleri kopyalanmaz (film brief'ten, görünüş seçilen stilden gelir). Kurallar zanaat.md §3–4'ün üstüne gelir.",
+  "ad": "maket-dunyasi",
+  "baslik": "Maket / minyatür dünya",
+  "ozet": "Dünya masa üstü bir maket kadar küçük ve elle tutulur: kamera maketin içinde yavaşça yol alır, sığ alan derinliği ölçeği anlatır, tek bir ışık yanar ve dünya değişir. Malzemeyi görüntü stili belirler: kil, ahşap, oyuncak, kâğıt, düşük poligon.",
+  "uygun": [
+    "kampanya",
+    "bağış",
+    "masal",
+    "marka hikâyesi",
+    "teaser"
+  ],
+  "kaynak": "katalog",
+  "kurallar": [
+    "Ölçek gerçek bir minyatür: kamera nesnelerin hemen üstünde, odak düzlemi kahramanda, önü ve arkası yumuşar; minyatür hissi buradan gelir",
+    "Hikâyeyi tek bir ışık taşır: odak düzleminde durur, yanınca çevresi değişir; dünyanın geri kalanı yönlü, karşıt ışıkta",
+    "Hareket ağır: kamera kayar, yükselir ya da süzülür; nesneler ağır kalkar, hafifçe yerleşir",
+    "Her kadrajda en az iki ikincil ayrıntı (ip, duman, yağan kar, kıyı çizgisi)",
+    "Yazı ve logo sahnenin içine çizilmez: üst katmanda, güvenli alanın içinde"
+  ],
+  "kamera": "yavaş dolly ya da vinç (2–4 sn'de birkaç santim), odak kahraman nesnede; geçişte odak kayması",
+  "gecis": "odak kayması, kamera yükselip yeni bir bölgeye bakar ya da bir ışık yanarak sahneyi değiştirir; kesme yalnız gerekçeyle",
+  "tempo": {
+    "olay_aralik_sn": [
+      0.6,
+      1.8
+    ]
+  },
+  "yasak": [
+    "kamera sarsıntısı",
+    "odak dışında kalan kahraman ışık",
+    "bütün sahneyi tek renge boğan ışık"
+  ],
+  "teknik": {
+    "blender": "gerçek alan derinliği kit.kamera(fstop=8–16, odak=…), metre cinsinden minyatür ölçek (ev 6–8 cm), kalabalık kit.pisir, uzun sırt kit.serit; teknik örnek katalog/animasyon/blender/maket-dunyasi/sahne.py",
+    "uc": "Three.js'te alan derinliği yok: ölçek ve katmanlı sis/ışıkla; ön plan nesneleri büyük ve koyu",
+    "hyperframes": "2,5B: katmanlı görseller, paralaks ve katman başına bulanıklıkla (filter: blur) sığ odak",
+    "remotion": "2,5B: katmanlı bileşenler, paralaks ve bulanıklık"
+  },
+  "gorunus_ipucu": "Görüntü stili seçilmediyse elle tutulur malzeme: kil-maket stili (parmak izli kil, lifli kâğıt)",
+  "ornekler": [
+    "agioyaz-397647",
+    "superalesha-970412"
+  ],
+  "demo": "katalog/animasyon/blender/maket-dunyasi/sahne.py",
+  "ornek_motor": "blender",
+  "demo_gorunus": [
+    "kil-maket",
+    "a"
+  ],
+  "ornek_film": "kil_kamp"
+}

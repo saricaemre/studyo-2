@@ -1,0 +1,9 @@
+public/textures
+public/uc
+public/fontlar
+blender/kit
+blender/eevee
+blender/yapim
+blender/takip
+blender/karma
+manim/kit

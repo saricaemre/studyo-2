@@ -1,0 +1,39 @@
+{
+  "_doc": "Esin kaynağıdır: 'Aynen uygula' seçilmedikçe Claude karıştırır, değiştirir, aşar; kurallar ipucu, yasak listesi uyarıdır. Katalog ses stili: müzik (iki kaynak: \"kod\" = pipeline/muzik_stiller.py ön ayarı, \"ace\" = ACE-Step 1.5 yerel üretim), efekt ailesi (pipeline/sfx.py), anlatıcı ayarı ve miks. ./st yeni --ses ile script.json'a işlenir.",
+  "ad": "sinematik-yukselis",
+  "baslik": "Sinematik yükseliş",
+  "ozet": "Taiko, yükselen yaylılar, bakır vuruşlar, büyük patlama. Duyuru, fragman, doruk.",
+  "uygun": [
+    "fragman",
+    "duyuru",
+    "tarih"
+  ],
+  "kaynak": "katalog",
+  "muzik": {
+    "kod": {
+      "stil": "yukselis",
+      "bpm": 100,
+      "ton": "D"
+    },
+    "ace": {
+      "caption": "epic cinematic trailer, taiko drums, rising string ostinato, brass hits, big build and impact, instrumental",
+      "bpm": 100,
+      "ton": "D minor",
+      "tohum": 42
+    }
+  },
+  "efekt": [
+    "low_drum",
+    "whoosh",
+    "metal_die"
+  ],
+  "anlatim": {
+    "rate": "+4%",
+    "pitch": "-2Hz"
+  },
+  "miks": {
+    "muzik_db": -15,
+    "duck_db": -11,
+    "sessizlik": "patlamadan önce 0,5 sn"
+  }
+}

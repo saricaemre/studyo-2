@@ -1,0 +1,177 @@
+{
+ "_doc": "İçe aktarılan film (sofra, HyperFrames): sahne ve olay zamanları kaynaktaki GSAP zaman çizelgesinden alındı ve saniye olarak işlendi (CLAUDE.md kural 9: gerekçeli saniye). Görüntü ve ses aynı listeyi okur.",
+ "lead": 0,
+ "cues": {
+  "k_basla": [
+   "t",
+   0.0
+  ],
+  "k_dokunus": [
+   "t",
+   1.32
+  ],
+  "k_kalp": [
+   "t",
+   1.55
+  ],
+  "k_tesekkur": [
+   "t",
+   1.8
+  ],
+  "k_ucus": [
+   "t",
+   2.05
+  ],
+  "k_yazi": [
+   "t",
+   3.0
+  ],
+  "k_yaklas": [
+   "t",
+   3.3
+  ],
+  "y_gece": [
+   "t",
+   3.9
+  ],
+  "y_ucus": [
+   "t",
+   4.2
+  ],
+  "y_kuslar": [
+   "t",
+   4.3
+  ],
+  "y_ay": [
+   "t",
+   4.4
+  ],
+  "y_safak": [
+   "t",
+   5.0
+  ],
+  "y_gunes": [
+   "t",
+   5.1
+  ],
+  "y_yildiz": [
+   "t",
+   5.3
+  ],
+  "y_yazi": [
+   "t",
+   7.5
+  ],
+  "y_dalis": [
+   "t",
+   7.85
+  ],
+  "v_yetimhane": [
+   "t",
+   8.4
+  ],
+  "v_top": [
+   "t",
+   8.6
+  ],
+  "v_kalp": [
+   "t",
+   9.95
+  ],
+  "v_pencere": [
+   "t",
+   10.32
+  ],
+  "d_salon": [
+   "t",
+   10.9
+  ],
+  "d_kalp": [
+   "t",
+   11.25
+  ],
+  "d_inis": [
+   "t",
+   12.5
+  ],
+  "d_patlama": [
+   "t",
+   12.57
+  ],
+  "d_kek": [
+   "t",
+   12.61
+  ],
+  "d_tahta": [
+   "t",
+   12.95
+  ],
+  "d_kamera": [
+   "t",
+   13.75
+  ],
+  "d_goz": [
+   "t",
+   14.15
+  ],
+  "d_tesekkur": [
+   "t",
+   15.2
+  ],
+  "d_balon": [
+   "t",
+   15.75
+  ],
+  "d_yazi": [
+   "t",
+   16.95
+  ],
+  "m_yutma": [
+   "t",
+   17.05
+  ],
+  "m_marka": [
+   "t",
+   17.7
+  ],
+  "m_kalp": [
+   "t",
+   18.25
+  ],
+  "m_alt": [
+   "t",
+   19.0
+  ],
+  "m_adres": [
+   "t",
+   19.65
+  ],
+  "m_dokunus": [
+   "t",
+   20.85
+  ],
+  "poster": [
+   "t",
+   21.6
+  ]
+ },
+ "_seritler": "Kontak tabakasında ara kareleri gösterilecek hızlı geçişler: [işaret, süre sn]",
+ "seritler": [
+  [
+   "k_dokunus",
+   0.6
+  ],
+  [
+   "y_dalis",
+   0.9
+  ],
+  [
+   "v_pencere",
+   0.9
+  ],
+  [
+   "m_yutma",
+   0.8
+  ]
+ ]
+}
